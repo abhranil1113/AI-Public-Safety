@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_42814d89389fdbcdb6cd510a7a906b6a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_42814d89389fdbcdb6cd510a7a906b6a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_42814d89389fdbcdb6cd510a7a906b6a = L.map(
+                "map_42814d89389fdbcdb6cd510a7a906b6a",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5febe83c01f504e955928dec3db1c027 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5febe83c01f504e955928dec3db1c027.addTo(map_42814d89389fdbcdb6cd510a7a906b6a);
+        
+    
+            var circle_marker_3ae8563590dfa378017c46f174dd132b = L.circleMarker(
+                [28.6139, 77.209],
+                {"bubblingMouseEvents": true, "color": "#FF003C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF003C", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 1.5}
+            ).addTo(map_42814d89389fdbcdb6cd510a7a906b6a);
+        
+    
+        var popup_8299224e3dcd632e65f8c1d3850ada68 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_82e17cc30946b19a047693e477021ac1 = $(`<div id="html_82e17cc30946b19a047693e477021ac1" style="width: 100.0%; height: 100.0%;">         <div style="font-family: 'Segoe UI', Arial, sans-serif; width: 220px; color: #EAEAEA; background-color: #1A1A2E; padding: 10px; border-radius: 8px; border: 1px solid #FF003C;">             <h4 style="margin: 0 0 8px 0; color: #FFF; font-size: 14px; border-bottom: 1px solid #444; padding-bottom: 4px;">New Delhi District</h4>             <table style="width: 100%; font-size: 12px; border-collapse: collapse;">                 <tr>                     <td style="padding: 2px 0; color: #888;">Hotspot Index:</td>                     <td style="text-align: right; font-weight: bold; color: #FF003C;">100.0%</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Scam Complaints:</td>                     <td style="text-align: right; font-weight: bold;">5</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Financial Defraud:</td>                     <td style="text-align: right; font-weight: bold; color: #28DF99;">₹2,070,815.00</td>                 </tr>             </table>         </div>         </div>`)[0];
+                popup_8299224e3dcd632e65f8c1d3850ada68.setContent(html_82e17cc30946b19a047693e477021ac1);
+            
+        
+
+        circle_marker_3ae8563590dfa378017c46f174dd132b.bindPopup(popup_8299224e3dcd632e65f8c1d3850ada68)
+        ;
+
+        
+    
+    
+            var circle_marker_8f029586394101462861d03f37792ade = L.circleMarker(
+                [19.076, 72.8777],
+                {"bubblingMouseEvents": true, "color": "#FF003C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF003C", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 1.5}
+            ).addTo(map_42814d89389fdbcdb6cd510a7a906b6a);
+        
+    
+        var popup_0d1820d37f3bfa1867e3993dd60c6525 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_337d5bd27a866190be3142a39cfcc86f = $(`<div id="html_337d5bd27a866190be3142a39cfcc86f" style="width: 100.0%; height: 100.0%;">         <div style="font-family: 'Segoe UI', Arial, sans-serif; width: 220px; color: #EAEAEA; background-color: #1A1A2E; padding: 10px; border-radius: 8px; border: 1px solid #FF003C;">             <h4 style="margin: 0 0 8px 0; color: #FFF; font-size: 14px; border-bottom: 1px solid #444; padding-bottom: 4px;">Mumbai District</h4>             <table style="width: 100%; font-size: 12px; border-collapse: collapse;">                 <tr>                     <td style="padding: 2px 0; color: #888;">Hotspot Index:</td>                     <td style="text-align: right; font-weight: bold; color: #FF003C;">100.0%</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Scam Complaints:</td>                     <td style="text-align: right; font-weight: bold;">10</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Financial Defraud:</td>                     <td style="text-align: right; font-weight: bold; color: #28DF99;">₹4,442,124.00</td>                 </tr>             </table>         </div>         </div>`)[0];
+                popup_0d1820d37f3bfa1867e3993dd60c6525.setContent(html_337d5bd27a866190be3142a39cfcc86f);
+            
+        
+
+        circle_marker_8f029586394101462861d03f37792ade.bindPopup(popup_0d1820d37f3bfa1867e3993dd60c6525)
+        ;
+
+        
+    
+    
+            var circle_marker_4efcab3b94acad076f698b560da95529 = L.circleMarker(
+                [12.9716, 77.5946],
+                {"bubblingMouseEvents": true, "color": "#FF003C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF003C", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 1.5}
+            ).addTo(map_42814d89389fdbcdb6cd510a7a906b6a);
+        
+    
+        var popup_9a26251279c889e6399ee60867e15213 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7106c7436dc58ed7edd73e108e47e15a = $(`<div id="html_7106c7436dc58ed7edd73e108e47e15a" style="width: 100.0%; height: 100.0%;">         <div style="font-family: 'Segoe UI', Arial, sans-serif; width: 220px; color: #EAEAEA; background-color: #1A1A2E; padding: 10px; border-radius: 8px; border: 1px solid #FF003C;">             <h4 style="margin: 0 0 8px 0; color: #FFF; font-size: 14px; border-bottom: 1px solid #444; padding-bottom: 4px;">Bengaluru District</h4>             <table style="width: 100%; font-size: 12px; border-collapse: collapse;">                 <tr>                     <td style="padding: 2px 0; color: #888;">Hotspot Index:</td>                     <td style="text-align: right; font-weight: bold; color: #FF003C;">100.0%</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Scam Complaints:</td>                     <td style="text-align: right; font-weight: bold;">17</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Financial Defraud:</td>                     <td style="text-align: right; font-weight: bold; color: #28DF99;">₹6,426,274.00</td>                 </tr>             </table>         </div>         </div>`)[0];
+                popup_9a26251279c889e6399ee60867e15213.setContent(html_7106c7436dc58ed7edd73e108e47e15a);
+            
+        
+
+        circle_marker_4efcab3b94acad076f698b560da95529.bindPopup(popup_9a26251279c889e6399ee60867e15213)
+        ;
+
+        
+    
+    
+            var circle_marker_fce5ffa1dad3eee82778b16ae071341f = L.circleMarker(
+                [17.385, 78.4867],
+                {"bubblingMouseEvents": true, "color": "#FF003C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF003C", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 1.5}
+            ).addTo(map_42814d89389fdbcdb6cd510a7a906b6a);
+        
+    
+        var popup_f21e9ba24f85aa4c47737daafe28d72a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4a09688f944e8ecf6dc66d7350f9b865 = $(`<div id="html_4a09688f944e8ecf6dc66d7350f9b865" style="width: 100.0%; height: 100.0%;">         <div style="font-family: 'Segoe UI', Arial, sans-serif; width: 220px; color: #EAEAEA; background-color: #1A1A2E; padding: 10px; border-radius: 8px; border: 1px solid #FF003C;">             <h4 style="margin: 0 0 8px 0; color: #FFF; font-size: 14px; border-bottom: 1px solid #444; padding-bottom: 4px;">Hyderabad District</h4>             <table style="width: 100%; font-size: 12px; border-collapse: collapse;">                 <tr>                     <td style="padding: 2px 0; color: #888;">Hotspot Index:</td>                     <td style="text-align: right; font-weight: bold; color: #FF003C;">100.0%</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Scam Complaints:</td>                     <td style="text-align: right; font-weight: bold;">12</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Financial Defraud:</td>                     <td style="text-align: right; font-weight: bold; color: #28DF99;">₹4,959,793.00</td>                 </tr>             </table>         </div>         </div>`)[0];
+                popup_f21e9ba24f85aa4c47737daafe28d72a.setContent(html_4a09688f944e8ecf6dc66d7350f9b865);
+            
+        
+
+        circle_marker_fce5ffa1dad3eee82778b16ae071341f.bindPopup(popup_f21e9ba24f85aa4c47737daafe28d72a)
+        ;
+
+        
+    
+    
+            var circle_marker_e3ef0812d6da18db44b74767e8fa0407 = L.circleMarker(
+                [13.0827, 80.2707],
+                {"bubblingMouseEvents": true, "color": "#FF003C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF003C", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 1.5}
+            ).addTo(map_42814d89389fdbcdb6cd510a7a906b6a);
+        
+    
+        var popup_4026b5f58a4f2a09081c9ad84198e17b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f0b93ff81d4b8b8a52ed88516bf4f8ad = $(`<div id="html_f0b93ff81d4b8b8a52ed88516bf4f8ad" style="width: 100.0%; height: 100.0%;">         <div style="font-family: 'Segoe UI', Arial, sans-serif; width: 220px; color: #EAEAEA; background-color: #1A1A2E; padding: 10px; border-radius: 8px; border: 1px solid #FF003C;">             <h4 style="margin: 0 0 8px 0; color: #FFF; font-size: 14px; border-bottom: 1px solid #444; padding-bottom: 4px;">Chennai District</h4>             <table style="width: 100%; font-size: 12px; border-collapse: collapse;">                 <tr>                     <td style="padding: 2px 0; color: #888;">Hotspot Index:</td>                     <td style="text-align: right; font-weight: bold; color: #FF003C;">100.0%</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Scam Complaints:</td>                     <td style="text-align: right; font-weight: bold;">11</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Financial Defraud:</td>                     <td style="text-align: right; font-weight: bold; color: #28DF99;">₹4,208,413.00</td>                 </tr>             </table>         </div>         </div>`)[0];
+                popup_4026b5f58a4f2a09081c9ad84198e17b.setContent(html_f0b93ff81d4b8b8a52ed88516bf4f8ad);
+            
+        
+
+        circle_marker_e3ef0812d6da18db44b74767e8fa0407.bindPopup(popup_4026b5f58a4f2a09081c9ad84198e17b)
+        ;
+
+        
+    
+    
+            var circle_marker_d0c49ed9f051e1fe4852932d69fe01bf = L.circleMarker(
+                [22.5726, 88.3639],
+                {"bubblingMouseEvents": true, "color": "#FF003C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF003C", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 1.5}
+            ).addTo(map_42814d89389fdbcdb6cd510a7a906b6a);
+        
+    
+        var popup_b65062ce4137d98176cfd1d5fd054491 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_80c105fd32e6a01a476fbad94ca6092f = $(`<div id="html_80c105fd32e6a01a476fbad94ca6092f" style="width: 100.0%; height: 100.0%;">         <div style="font-family: 'Segoe UI', Arial, sans-serif; width: 220px; color: #EAEAEA; background-color: #1A1A2E; padding: 10px; border-radius: 8px; border: 1px solid #FF003C;">             <h4 style="margin: 0 0 8px 0; color: #FFF; font-size: 14px; border-bottom: 1px solid #444; padding-bottom: 4px;">Kolkata District</h4>             <table style="width: 100%; font-size: 12px; border-collapse: collapse;">                 <tr>                     <td style="padding: 2px 0; color: #888;">Hotspot Index:</td>                     <td style="text-align: right; font-weight: bold; color: #FF003C;">100.0%</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Scam Complaints:</td>                     <td style="text-align: right; font-weight: bold;">6</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Financial Defraud:</td>                     <td style="text-align: right; font-weight: bold; color: #28DF99;">₹1,853,954.00</td>                 </tr>             </table>         </div>         </div>`)[0];
+                popup_b65062ce4137d98176cfd1d5fd054491.setContent(html_80c105fd32e6a01a476fbad94ca6092f);
+            
+        
+
+        circle_marker_d0c49ed9f051e1fe4852932d69fe01bf.bindPopup(popup_b65062ce4137d98176cfd1d5fd054491)
+        ;
+
+        
+    
+    
+            var circle_marker_d1e33b45ee1830a06c3931ab13a470ad = L.circleMarker(
+                [18.5204, 73.8567],
+                {"bubblingMouseEvents": true, "color": "#FF003C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF003C", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 1.5}
+            ).addTo(map_42814d89389fdbcdb6cd510a7a906b6a);
+        
+    
+        var popup_cf9b3b160542ea054c23f0a203fbe5b1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_87801df87f4c8f008f12ab2c74edad3f = $(`<div id="html_87801df87f4c8f008f12ab2c74edad3f" style="width: 100.0%; height: 100.0%;">         <div style="font-family: 'Segoe UI', Arial, sans-serif; width: 220px; color: #EAEAEA; background-color: #1A1A2E; padding: 10px; border-radius: 8px; border: 1px solid #FF003C;">             <h4 style="margin: 0 0 8px 0; color: #FFF; font-size: 14px; border-bottom: 1px solid #444; padding-bottom: 4px;">Pune District</h4>             <table style="width: 100%; font-size: 12px; border-collapse: collapse;">                 <tr>                     <td style="padding: 2px 0; color: #888;">Hotspot Index:</td>                     <td style="text-align: right; font-weight: bold; color: #FF003C;">100.0%</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Scam Complaints:</td>                     <td style="text-align: right; font-weight: bold;">8</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Financial Defraud:</td>                     <td style="text-align: right; font-weight: bold; color: #28DF99;">₹4,845,065.00</td>                 </tr>             </table>         </div>         </div>`)[0];
+                popup_cf9b3b160542ea054c23f0a203fbe5b1.setContent(html_87801df87f4c8f008f12ab2c74edad3f);
+            
+        
+
+        circle_marker_d1e33b45ee1830a06c3931ab13a470ad.bindPopup(popup_cf9b3b160542ea054c23f0a203fbe5b1)
+        ;
+
+        
+    
+    
+            var circle_marker_ac75506eab86ba8f376e31e4a5abb32c = L.circleMarker(
+                [23.0225, 72.5714],
+                {"bubblingMouseEvents": true, "color": "#FF003C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF003C", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 1.5}
+            ).addTo(map_42814d89389fdbcdb6cd510a7a906b6a);
+        
+    
+        var popup_cbd7fe73f249379dbdd3a8521ae15ed1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d98f833ed2283d34780c26b18c2034ec = $(`<div id="html_d98f833ed2283d34780c26b18c2034ec" style="width: 100.0%; height: 100.0%;">         <div style="font-family: 'Segoe UI', Arial, sans-serif; width: 220px; color: #EAEAEA; background-color: #1A1A2E; padding: 10px; border-radius: 8px; border: 1px solid #FF003C;">             <h4 style="margin: 0 0 8px 0; color: #FFF; font-size: 14px; border-bottom: 1px solid #444; padding-bottom: 4px;">Ahmedabad District</h4>             <table style="width: 100%; font-size: 12px; border-collapse: collapse;">                 <tr>                     <td style="padding: 2px 0; color: #888;">Hotspot Index:</td>                     <td style="text-align: right; font-weight: bold; color: #FF003C;">100.0%</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Scam Complaints:</td>                     <td style="text-align: right; font-weight: bold;">14</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Financial Defraud:</td>                     <td style="text-align: right; font-weight: bold; color: #28DF99;">₹8,107,600.00</td>                 </tr>             </table>         </div>         </div>`)[0];
+                popup_cbd7fe73f249379dbdd3a8521ae15ed1.setContent(html_d98f833ed2283d34780c26b18c2034ec);
+            
+        
+
+        circle_marker_ac75506eab86ba8f376e31e4a5abb32c.bindPopup(popup_cbd7fe73f249379dbdd3a8521ae15ed1)
+        ;
+
+        
+    
+    
+            var circle_marker_48a43cabb0455edf7ab23e503908b738 = L.circleMarker(
+                [28.4595, 77.0266],
+                {"bubblingMouseEvents": true, "color": "#FF003C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF003C", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 1.5}
+            ).addTo(map_42814d89389fdbcdb6cd510a7a906b6a);
+        
+    
+        var popup_c7379723cc643a8958983fb8f0f48bf6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0cfde3bd7b5612b36497a40d9d39dc69 = $(`<div id="html_0cfde3bd7b5612b36497a40d9d39dc69" style="width: 100.0%; height: 100.0%;">         <div style="font-family: 'Segoe UI', Arial, sans-serif; width: 220px; color: #EAEAEA; background-color: #1A1A2E; padding: 10px; border-radius: 8px; border: 1px solid #FF003C;">             <h4 style="margin: 0 0 8px 0; color: #FFF; font-size: 14px; border-bottom: 1px solid #444; padding-bottom: 4px;">Gurugram District</h4>             <table style="width: 100%; font-size: 12px; border-collapse: collapse;">                 <tr>                     <td style="padding: 2px 0; color: #888;">Hotspot Index:</td>                     <td style="text-align: right; font-weight: bold; color: #FF003C;">100.0%</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Scam Complaints:</td>                     <td style="text-align: right; font-weight: bold;">8</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Financial Defraud:</td>                     <td style="text-align: right; font-weight: bold; color: #28DF99;">₹4,814,845.00</td>                 </tr>             </table>         </div>         </div>`)[0];
+                popup_c7379723cc643a8958983fb8f0f48bf6.setContent(html_0cfde3bd7b5612b36497a40d9d39dc69);
+            
+        
+
+        circle_marker_48a43cabb0455edf7ab23e503908b738.bindPopup(popup_c7379723cc643a8958983fb8f0f48bf6)
+        ;
+
+        
+    
+    
+            var circle_marker_a19a5f6b2052fbd76e6692d27fd6f79c = L.circleMarker(
+                [28.5355, 77.391],
+                {"bubblingMouseEvents": true, "color": "#FF003C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF003C", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 1.5}
+            ).addTo(map_42814d89389fdbcdb6cd510a7a906b6a);
+        
+    
+        var popup_e49d578f76670d5b916e7274791fd5ad = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_bdb9dcb1d61e4b3e04220acc75889e63 = $(`<div id="html_bdb9dcb1d61e4b3e04220acc75889e63" style="width: 100.0%; height: 100.0%;">         <div style="font-family: 'Segoe UI', Arial, sans-serif; width: 220px; color: #EAEAEA; background-color: #1A1A2E; padding: 10px; border-radius: 8px; border: 1px solid #FF003C;">             <h4 style="margin: 0 0 8px 0; color: #FFF; font-size: 14px; border-bottom: 1px solid #444; padding-bottom: 4px;">Noida District</h4>             <table style="width: 100%; font-size: 12px; border-collapse: collapse;">                 <tr>                     <td style="padding: 2px 0; color: #888;">Hotspot Index:</td>                     <td style="text-align: right; font-weight: bold; color: #FF003C;">100.0%</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Scam Complaints:</td>                     <td style="text-align: right; font-weight: bold;">9</td>                 </tr>                 <tr>                     <td style="padding: 2px 0; color: #888;">Financial Defraud:</td>                     <td style="text-align: right; font-weight: bold; color: #28DF99;">₹6,392,260.00</td>                 </tr>             </table>         </div>         </div>`)[0];
+                popup_e49d578f76670d5b916e7274791fd5ad.setContent(html_bdb9dcb1d61e4b3e04220acc75889e63);
+            
+        
+
+        circle_marker_a19a5f6b2052fbd76e6692d27fd6f79c.bindPopup(popup_e49d578f76670d5b916e7274791fd5ad)
+        ;
+
+        
+    
+</script>
+</html>

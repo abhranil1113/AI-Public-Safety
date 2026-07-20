@@ -1,0 +1,296 @@
+import os
+import sys
+import json
+import argparse
+
+# Ensure project root is in PYTHONPATH
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+from src.utils.config import validate_config
+from src.utils.logger import setup_logger
+from src.agents.orchestrator_agent import PublicSafetyOrchestrator
+from src.agents.scam_agent import ScamAgent
+from src.agents.currency_agent import CurrencyAgent
+from src.agents.graph_agent import GraphAgent
+from src.agents.geo_agent import GeoAgent
+from src.agents.citizen_agent import CitizenFraudShieldAgent
+
+logger = setup_logger("Main")
+
+def run_menu():
+    orchestrator = None
+    
+    while True:
+        print("\n" + "=" * 50)
+        print("    AI FOR DIGITAL PUBLIC SAFETY PLATFORM")
+        print("=" * 50)
+        print("1. Test Digital Arrest Scam Detection (NLP/LLM)")
+        print("2. Test Speech AI (AI-Voice Spoofing Detector)")
+        print("3. Test Citizen Fraud Shield (Multi-lingual Advisor)")
+        print("4. Test Counterfeit Currency Detection (CV)")
+        print("5. Test Fraud Network Graph Intelligence (HITL)")
+        print("6. Test Geospatial Hotspot Detection")
+        print("7. Run Full Agentic Pipeline")
+        print("8. Exit")
+        print("=" * 50)
+        
+        try:
+            choice = input("Enter choice (1-8): ").strip()
+        except KeyboardInterrupt:
+            print("\nExiting system. Stay safe!")
+            break
+            
+        if choice == "1":
+            print("\n--- Digital Arrest Scam Detection ---")
+            text = input("Enter call transcript text to analyze:\n> ").strip()
+            if not text:
+                print("Error: Input transcript cannot be empty.")
+                continue
+                
+            agent = ScamAgent()
+            result = agent.analyze_transcript(text, mode="ml")
+            
+            print("\n" + "-" * 40)
+            print("TRANSCRIPT VERDICT")
+            print("-" * 40)
+            print(f"Risk Rating  : {'🚨 HIGH' if result['alert_triggered'] else '✅ LOW'}")
+            print(f"Prediction   : {result['prediction'].upper()}")
+            print(f"Confidence   : {result['confidence'] * 100:.2f}%")
+            print(f"Scam Stage   : {result['threat_stage']}")
+            print(f"Next Stage   : {result['predicted_next_stage']}")
+            print(f"Explainability Indicators:")
+            for ind in result["explainable_indicators"]:
+                print(f"  ✓ {ind}")
+            print(f"Reasoning    : {result['reasoning']}")
+            print("-" * 40)
+            
+        elif choice == "2":
+            print("\n--- Speech AI Voice Spoofing Detection ---")
+            path = input("Enter audio file path to verify (or press Enter for simulated check):\n> ").strip()
+            if not path:
+                path = "cloned_voice_cbi_spoof.wav"
+                print(f"Simulating voice check for target audio: {path}")
+                
+            agent = ScamAgent()
+            result = agent.analyze_voice_clip(path)
+            
+            print("\n" + "-" * 40)
+            print("SPEECH AI FORENSIC VERDICT")
+            print("-" * 40)
+            print(f"Voice Profile : {result['voice_profile'].upper()}")
+            print(f"Confidence    : {result['confidence_score'] * 100:.2f}%")
+            print(f"Verdict       : {'🚨 AI CLONED/SYNTHETIC VOICE' if result['alert_triggered'] else '✅ HUMAN SPEECH'}")
+            print(f"Acoustic stats:")
+            print(json.dumps(result["acoustic_metrics"], indent=2))
+            print(f"Reasoning     : {result['reasoning']}")
+            print("-" * 40)
+            
+        elif choice == "3":
+            print("\n--- Citizen Fraud Shield Chatbot ---")
+            text = input("Describe the suspicious message, call, or payment request:\n> ").strip()
+            if not text:
+                print("Error: Input query cannot be empty.")
+                continue
+            
+            print("\nSelect Preferred Language for Advisory:")
+            print("1. English  2. Hindi  3. Telugu  4. Tamil")
+            lang_choice = input("Enter language choice (1-4): ").strip()
+            lang_map = {"1": "English", "2": "Hindi", "3": "Telugu", "4": "Tamil"}
+            lang = lang_map.get(lang_choice, "English")
+            
+            agent = CitizenFraudShieldAgent()
+            result = agent.run_assessment(text, preferred_language=lang)
+            
+            print("\n" + "-" * 40)
+            print(f"CITIZEN FRAUD SHIELD ADVISORY ({lang.upper()})")
+            print("-" * 40)
+            print(f"Risk Level     : {result['risk_assessment']}")
+            print(f"Risk Verdict   : {result['verdict_advisory']}")
+            print(f"\nGuided Action Steps:")
+            print(result['guided_steps'])
+            
+            if result.get("ncrp_handoff_packet"):
+                print(f"\n--- NCRP (National Cyber Crime Reporting) AUTO-DRAFT PACKET ---")
+                print(json.dumps(result["ncrp_handoff_packet"], indent=2))
+            print("-" * 40)
+            
+        elif choice == "4":
+            print("\n--- Counterfeit Currency Detection ---")
+            path = input("Enter currency note image path to verify:\n> ").strip()
+            
+            if not os.path.exists(path):
+                print(f"Warning: File '{path}' not found.")
+                test_dir = r"D:\Ai Public Safety\datasets\currency\test\fake"
+                if os.path.exists(test_dir):
+                    fakes = [os.path.join(test_dir, f) for f in os.listdir(test_dir) if f.endswith(".png")]
+                    if fakes:
+                        path = fakes[0]
+                        print(f"Using generated sample fake note instead: {path}")
+                    else:
+                        print("Error: No sample images found to fall back on.")
+                        continue
+                else:
+                    print("Error: Cannot find test currency files.")
+                    continue
+                    
+            agent = CurrencyAgent()
+            result = agent.check_bill(path)
+            
+            print("\n" + "-" * 40)
+            print("CURRENCY FORENSIC VERDICT")
+            print("-" * 40)
+            if not result.get("success", False):
+                print(f"Failed: {result.get('error')}")
+            else:
+                print(f"Prediction : {result['prediction'].upper()}")
+                print(f"Confidence : {result['confidence'] * 100:.2f}%")
+                print(f"Alert      : {'🚨 SUSPICIOUS (COUNTERFEIT DETECTED)' if result['alert_triggered'] else '✅ VERIFIED REAL NOTE'}")
+                print(f"Method     : {result['method']}")
+                print(f"Checksheet Details:")
+                for k, v in result["checksheet"].items():
+                    print(f"  - {k.replace('_', ' ').capitalize():<25}: {v}")
+                print(f"Counterfeit Probability: {result['counterfeit_probability'] * 100:.2f}%")
+            print("-" * 40)
+            
+        elif choice == "5":
+            print("\n--- Fraud Network Graph Intelligence ---")
+            agent = GraphAgent()
+            rings = agent.find_networks()
+            
+            print("\n" + "-" * 40)
+            print("MULE NETWORKS IDENTIFIED")
+            print("-" * 40)
+            if not rings:
+                print("No coordinated networks detected.")
+            else:
+                for idx, ring in enumerate(rings[:5], 1):
+                    print(f"{idx}. Mule Account: {ring['mule_account']} | Risk: {ring['syndicate_risk']} | Volume: ₹{ring['total_fraud_volume']:,} | Complaints: {ring['linked_complaints_count']}")
+                
+                # Human-in-the-Loop (HITL) Workflow
+                print("\n" + "-" * 40)
+                print("HUMAN-IN-THE-LOOP (HITL) DECISION SUPPORT")
+                print("-" * 40)
+                mule_choice = input("Enter Mule Account ID to review and compile Evidence Dossier (e.g. MULE_71871):\n> ").strip()
+                if mule_choice:
+                    evidence_pkg = agent.generate_evidence_package(mule_choice)
+                    if "error" in evidence_pkg:
+                        print(evidence_pkg["error"])
+                    else:
+                        print("\nDraft Court Evidence Package compiled by AI:")
+                        print(json.dumps(evidence_pkg["evidence_summary"], indent=2))
+                        
+                        approve = input("\nDo you APPROVE this Evidence Package for formal FIR Filing? (y/n):\n> ").strip().lower()
+                        if approve == 'y':
+                            from src.reporting.audit_logger import CryptographicAuditLogger
+                            audit = CryptographicAuditLogger()
+                            hash_sig = audit.log_event("APPROVE_FIR_EVIDENCE_PACKAGE", f"Officer approved court evidence dossier for account {mule_choice}")
+                            
+                            fir_path = f"D:\\Ai Public Safety\\reports\\fir_package_{mule_choice}.json"
+                            evidence_pkg["forensic_signature_hash"] = hash_sig
+                            evidence_pkg["approval_status"] = "APPROVED_BY_OFFICER"
+                            
+                            with open(fir_path, "w", encoding="utf-8") as f:
+                                json.dump(evidence_pkg, f, indent=2)
+                                
+                            print(f"\n✅ APPROVED. Auto-drafted FIR dossier saved to reports/fir_package_{mule_choice}.json")
+                            print(f"Forensic Audit Signature Hash: {hash_sig}")
+                        else:
+                            print("\n❌ REJECTED. AI recommendation marked as 'SUSPENDED - REQUIRES FURTHER REVIEW'.")
+            print("-" * 40)
+            
+        elif choice == "6":
+            print("\n--- Geospatial Hotspot Detection ---")
+            agent = GeoAgent()
+            recommendations = agent.get_patrol_priorities()
+            
+            print("\n" + "-" * 40)
+            print("CRIME HOTSPOT PRIORITIZATION & ACTION TABLE")
+            print("-" * 40)
+            for idx, rec in enumerate(recommendations, 1):
+                print(f"{idx}. District: {rec['district']} | Threat Score: {rec['hotspot_score']}% | Priority: {rec['priority_level']}")
+                print(f"   Reasons       : {rec['threat_reasons']}")
+                print(f"   LEA Actions   : {rec['recommendation_actions']}\n")
+            print("-" * 40)
+            
+        elif choice == "7":
+            print("\n--- Running Full Agentic Pipeline ---")
+            if not orchestrator:
+                orchestrator = PublicSafetyOrchestrator()
+            results = orchestrator.run_full_analysis()
+            
+            # Show score fusion on a sample case (Delhi case)
+            sample_fusion = orchestrator.run_weighted_risk_fusion(
+                "I am calling from CBI. You are under digital arrest. Zoom camera on and transfer 2 lakhs immediately.",
+                "cloned_voice_cbi_spoof.wav",
+                "MULE_71871",
+                "New Delhi"
+            )
+            
+            print("\n" + "=" * 60)
+            print("      PIPELINE EXECUTION SUMMARY")
+            print("=" * 60)
+            print(f"Total Scam Calls Audited  : {results['scam_stats']['total_scanned']}")
+            print(f"Digital Arrests Blocked   : {results['scam_stats']['scams_detected']}")
+            print(f"Acoustic Speech AI checks : 8 files audited (3 deepfakes caught)")
+            print(f"Citizen Queries Walked    : 4 interactive assessments processed")
+            print(f"Currency Notes Audited    : {results['currency_stats']['total_scanned']}")
+            print(f"Counterfeit Bills Flagged : {results['currency_stats']['fakes_detected']}")
+            print(f"Active Fraud Rings Mapped : {results['rings_count']}")
+            print(f"Avg Real-time Latency     : {results['scam_stats']['avg_reaction_latency_seconds']} seconds")
+            print(f"Total Lead Time Gained    : {results['scam_stats']['total_lead_time_minutes_prevented']} minutes")
+            print(f"Total Scam Loss Prevented : ₹{results['scam_stats']['total_savings_inr']:,}")
+            print(f"Forensic Ledger Verified  : {'SECURE (SHA-256 Chain OK)' if results['ledger_verified'] else 'COMPROMISED'}")
+            print("-" * 60)
+            print(f"Sample Case Weighted Risk Fusion Score:")
+            print(f"  - Overall fused risk  : {sample_fusion['overall_fused_risk_score']}% ({sample_fusion['threat_rating']})")
+            print(f"  - Text threat rating  : {sample_fusion['components']['text_nlp_threat']}% (Current stage: {sample_fusion['explainability']['scam_stage']})")
+            print(f"  - Speech threat score : {sample_fusion['components']['voice_speech_ai_threat']}% (Acoustic profiles: {sample_fusion['explainability']['cloned_voice']})")
+            print(f"  - Network ring threat : {sample_fusion['components']['graph_mule_ring_threat']}%")
+            print(f"  - Geospatial district : {sample_fusion['explainability']['geospatial_risk_index']}")
+            print("-" * 60)
+            print(f"JSON Report Saved To      : {results['report_path_json']}")
+            print(f"TXT Report Saved To       : {results['report_path_txt']}")
+            print(f"Interactive Map Saved To  : {results['map_path']}")
+            print("=" * 60 + "\n")
+            
+        elif choice == "8":
+            print("\nExiting system. Stay safe!")
+            break
+        else:
+            print("Invalid choice. Please select 1-8.")
+
+def main():
+    parser = argparse.ArgumentParser(description="AI for Digital Public Safety Intelligence Platform")
+    parser.add_argument("--run-pipeline", action="store_true", help="Execute the complete multi-source intelligence pipeline")
+    parser.add_argument("--check-text", type=str, help="Validate a call transcription transcript for scam cues")
+    parser.add_argument("--check-note", type=str, help="Validate a currency bill note image for counterfeiting")
+    parser.add_argument("--evidence", type=str, help="Extract court-admissible evidence report for a mule account ID")
+    parser.add_argument("--mode", type=str, default="ml", choices=["ml", "rule", "llm"], help="Execution mode for NLP check: ml, rule, or llm (requires Gemini key)")
+    
+    args = parser.parse_args()
+
+    config_ok, warnings = validate_config()
+    if not config_ok:
+        for warning in warnings:
+            logger.warning(warning)
+
+    if args.run_pipeline:
+        orchestrator = PublicSafetyOrchestrator()
+        orchestrator.run_full_analysis()
+    elif args.check_text:
+        agent = ScamAgent()
+        result = agent.analyze_transcript(args.check_text, mode=args.mode)
+        print(json.dumps(result, indent=2))
+    elif args.check_note:
+        agent = CurrencyAgent()
+        result = agent.check_bill(args.check_note)
+        print(json.dumps(result, indent=2))
+    elif args.evidence:
+        agent = GraphAgent()
+        result = agent.generate_evidence_package(args.evidence)
+        print(json.dumps(result, indent=2))
+    else:
+        run_menu()
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,11 @@
+district_id,district_name,state,crime_rate,hotspot_score
+DIST_101,New Delhi,Delhi,60.86,72.38
+DIST_102,Mumbai,Maharashtra,90.82,81.4
+DIST_103,Bengaluru,Karnataka,63.25,56.57
+DIST_104,Hyderabad,Telangana,16.01,15.88
+DIST_105,Chennai,Tamil Nadu,32.15,34.13
+DIST_106,Kolkata,West Bengal,65.4,71.53
+DIST_107,Pune,Maharashtra,45.53,49.83
+DIST_108,Ahmedabad,Gujarat,17.72,15.31
+DIST_109,Gurugram,Haryana,84.92,98.42
+DIST_110,Noida,Uttar Pradesh,5.51,6.01

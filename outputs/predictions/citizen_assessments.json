@@ -1,0 +1,92 @@
+{
+  "total_assessments": 4,
+  "high_risk_flagged": 4,
+  "languages_queried": [
+    "English",
+    "Hindi",
+    "Telugu",
+    "Tamil"
+  ],
+  "guided_advisories": [
+    {
+      "query_text": "I got a call from CBI saying my card is linked to drugs in Mumbai",
+      "risk_assessment": "HIGH",
+      "confidence_score": 0.6558,
+      "language_selected": "Hindi",
+      "verdict_advisory": "\u26a0\ufe0f \u0909\u091a\u094d\u091a \u091c\u094b\u0916\u093f\u092e \u091a\u0947\u0924\u093e\u0935\u0928\u0940: \u092f\u0939 \u0938\u0902\u0926\u0947\u0936 \u0921\u093f\u091c\u093f\u091f\u0932 \u0905\u0930\u0947\u0938\u094d\u091f \u0938\u094d\u0915\u0948\u092e \u0914\u0930 \u0935\u093f\u0924\u094d\u0924\u0940\u092f \u0927\u094b\u0916\u093e\u0927\u0921\u093c\u0940 \u0915\u0947 \u092a\u0948\u091f\u0930\u094d\u0928 \u0938\u0947 \u092e\u0947\u0932 \u0916\u093e\u0924\u093e \u0939\u0948\u0964",
+      "guided_steps": "1. \u0915\u094b\u0908 \u092d\u0940 \u092a\u0948\u0938\u093e \u091f\u094d\u0930\u093e\u0902\u0938\u092b\u0930 \u0928 \u0915\u0930\u0947\u0902\u0964\n2. \u0913\u091f\u0940\u092a\u0940, \u0906\u0927\u093e\u0930 \u092f\u093e \u092c\u0948\u0902\u0915 \u0935\u093f\u0935\u0930\u0923 \u0938\u093e\u091d\u093e \u0928 \u0915\u0930\u0947\u0902\u0964\n3. \u0938\u094d\u0915\u093e\u0907\u092a, \u091c\u093c\u0942\u092e \u092f\u093e \u0935\u094d\u0939\u093e\u091f\u094d\u0938\u090f\u092a \u0935\u0940\u0921\u093f\u092f\u094b \u0915\u0949\u0932 \u0915\u094b \u0924\u0941\u0930\u0902\u0924 \u0915\u093e\u091f \u0926\u0947\u0902\u0964\n4. \u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f \u0938\u093e\u0907\u092c\u0930 \u0905\u092a\u0930\u093e\u0927 \u0939\u0947\u0932\u094d\u092a\u0932\u093e\u0907\u0928 1930 \u092a\u0930 \u0915\u0949\u0932 \u0915\u0930\u0947\u0902 \u092f\u093e www.cybercrime.gov.in \u092a\u0930 \u0930\u093f\u092a\u094b\u0930\u094d\u091f \u0915\u0930\u0947\u0902\u0964",
+      "ncrp_handoff_packet": {
+        "portal": "NCRP (National Cyber Crime Reporting Portal)",
+        "auto_form_data": {
+          "incident_category": "Online Financial Fraud / Digital Arrest",
+          "evidence_transcript_snippet": "I got a call from CBI saying my card is linked to drugs in Mumbai",
+          "reported_timestamp": "2026-07-21 00:07:36",
+          "recommended_action": "Freeze target account, notify Telecom Circle",
+          "source_channel": "Citizen Mobile Application/WhatsApp Shield"
+        },
+        "api_endpoint": "https://api.cybercrime.gov.in/v1/report_draft",
+        "status": "DRAFT_READY_FOR_CITIZEN_SUBMISSION"
+      }
+    },
+    {
+      "query_text": "Please transfer money to release lottery funds from KBC portal",
+      "risk_assessment": "HIGH",
+      "confidence_score": 0.6189,
+      "language_selected": "English",
+      "verdict_advisory": "\u26a0\ufe0f HIGH RISK ALERT: This matches typical patterns of digital arrest scams and financial fraud.",
+      "guided_steps": "1. Do NOT transfer any money.\n2. Do NOT share OTP, Aadhaar, or Bank credentials.\n3. Disconnect any active Skype, Zoom or WhatsApp video calls immediately.\n4. Call 1930 (National Cyber Crime Helpline) or report to www.cybercrime.gov.in.",
+      "ncrp_handoff_packet": {
+        "portal": "NCRP (National Cyber Crime Reporting Portal)",
+        "auto_form_data": {
+          "incident_category": "Online Financial Fraud / Digital Arrest",
+          "evidence_transcript_snippet": "Please transfer money to release lottery funds from KBC portal",
+          "reported_timestamp": "2026-07-21 00:07:36",
+          "recommended_action": "Freeze target account, notify Telecom Circle",
+          "source_channel": "Citizen Mobile Application/WhatsApp Shield"
+        },
+        "api_endpoint": "https://api.cybercrime.gov.in/v1/report_draft",
+        "status": "DRAFT_READY_FOR_CITIZEN_SUBMISSION"
+      }
+    },
+    {
+      "query_text": "TRAI warning message says mobile block in 2 hours link Aadhaar",
+      "risk_assessment": "HIGH",
+      "confidence_score": 0.6149,
+      "language_selected": "Telugu",
+      "verdict_advisory": "\u26a0\ufe0f \u0c05\u0c27\u0c3f\u0c15 \u0c2a\u0c4d\u0c30\u0c2e\u0c3e\u0c26 \u0c39\u0c46\u0c1a\u0c4d\u0c1a\u0c30\u0c3f\u0c15: \u0c07\u0c26\u0c3f \u0c21\u0c3f\u0c1c\u0c3f\u0c1f\u0c32\u0c4d \u0c05\u0c30\u0c46\u0c38\u0c4d\u0c1f\u0c4d \u0c38\u0c4d\u0c15\u0c3e\u0c2e\u0c4d \u0c2e\u0c30\u0c3f\u0c2f\u0c41 \u0c06\u0c30\u0c4d\u0c25\u0c3f\u0c15 \u0c2e\u0c4b\u0c38\u0c3e\u0c32 \u0c28\u0c2e\u0c42\u0c28\u0c3e\u0c32\u0c24\u0c4b \u0c38\u0c30\u0c3f\u0c2a\u0c4b\u0c32\u0c41\u0c24\u0c4b\u0c02\u0c26\u0c3f.",
+      "guided_steps": "1. \u0c0e\u0c32\u0c3e\u0c02\u0c1f\u0c3f \u0c21\u0c2c\u0c4d\u0c2c\u0c41\u0c28\u0c41 \u0c2c\u0c26\u0c3f\u0c32\u0c40 \u0c1a\u0c47\u0c2f\u0c35\u0c26\u0c4d\u0c26\u0c41.\n2. OTP, \u0c06\u0c27\u0c3e\u0c30\u0c4d \u0c32\u0c47\u0c26\u0c3e \u0c2c\u0c4d\u0c2f\u0c3e\u0c02\u0c15\u0c4d \u0c35\u0c3f\u0c35\u0c30\u0c3e\u0c32\u0c28\u0c41 \u0c0e\u0c35\u0c30\u0c3f\u0c24\u0c4b\u0c28\u0c42 \u0c2a\u0c02\u0c1a\u0c41\u0c15\u0c4b\u0c35\u0c26\u0c4d\u0c26\u0c41.\n3. \u0c38\u0c4d\u0c15\u0c48\u0c2a\u0c4d, \u0c1c\u0c42\u0c2e\u0c4d \u0c32\u0c47\u0c26\u0c3e \u0c35\u0c3e\u0c1f\u0c4d\u0c38\u0c3e\u0c2a\u0c4d \u0c35\u0c40\u0c21\u0c3f\u0c2f\u0c4b \u0c15\u0c3e\u0c32\u0c4d\u0c38\u0c4d \u0c35\u0c46\u0c02\u0c1f\u0c28\u0c47 \u0c28\u0c3f\u0c32\u0c3f\u0c2a\u0c3f\u0c35\u0c47\u0c2f\u0c02\u0c21\u0c3f.\n4. \u0c28\u0c47\u0c37\u0c28\u0c32\u0c4d \u0c38\u0c48\u0c2c\u0c30\u0c4d \u0c15\u0c4d\u0c30\u0c48\u0c2e\u0c4d \u0c39\u0c46\u0c32\u0c4d\u0c2a\u0c4d\u200c\u0c32\u0c48\u0c28\u0c4d 1930 \u0c15\u0c3f \u0c15\u0c3e\u0c32\u0c4d \u0c1a\u0c47\u0c2f\u0c02\u0c21\u0c3f \u0c32\u0c47\u0c26\u0c3e www.cybercrime.gov.in \u0c32\u0c4b \u0c2b\u0c3f\u0c30\u0c4d\u0c2f\u0c3e\u0c26\u0c41 \u0c1a\u0c47\u0c2f\u0c02\u0c21\u0c3f.",
+      "ncrp_handoff_packet": {
+        "portal": "NCRP (National Cyber Crime Reporting Portal)",
+        "auto_form_data": {
+          "incident_category": "Online Financial Fraud / Digital Arrest",
+          "evidence_transcript_snippet": "TRAI warning message says mobile block in 2 hours link Aadhaar",
+          "reported_timestamp": "2026-07-21 00:07:36",
+          "recommended_action": "Freeze target account, notify Telecom Circle",
+          "source_channel": "Citizen Mobile Application/WhatsApp Shield"
+        },
+        "api_endpoint": "https://api.cybercrime.gov.in/v1/report_draft",
+        "status": "DRAFT_READY_FOR_CITIZEN_SUBMISSION"
+      }
+    },
+    {
+      "query_text": "Urgent package customs clearance fee payment request",
+      "risk_assessment": "HIGH",
+      "confidence_score": 0.5029,
+      "language_selected": "Tamil",
+      "verdict_advisory": "\u26a0\ufe0f \u0b85\u0ba4\u0bbf\u0b95 \u0b86\u0baa\u0ba4\u0bcd\u0ba4\u0bc1 \u0b8e\u0b9a\u0bcd\u0b9a\u0bb0\u0bbf\u0b95\u0bcd\u0b95\u0bc8: \u0b87\u0ba4\u0bc1 \u0bb5\u0bb4\u0b95\u0bcd\u0b95\u0bae\u0bbe\u0ba9 \u0b9f\u0bbf\u0b9c\u0bbf\u0b9f\u0bcd\u0b9f\u0bb2\u0bcd \u0b95\u0bc8\u0ba4\u0bc1 \u0bae\u0bcb\u0b9a\u0b9f\u0bbf \u0bae\u0bb1\u0bcd\u0bb1\u0bc1\u0bae\u0bcd \u0ba8\u0bbf\u0ba4\u0bbf \u0bae\u0bcb\u0b9a\u0b9f\u0bbf \u0bb5\u0b9f\u0bbf\u0bb5\u0b99\u0bcd\u0b95\u0bb3\u0bc1\u0b9f\u0ba9\u0bcd \u0b92\u0ba4\u0bcd\u0ba4\u0bc1\u0baa\u0bcd\u0baa\u0bcb\u0b95\u0bbf\u0bb1\u0ba4\u0bc1.",
+      "guided_steps": "1. \u0b8e\u0ba8\u0bcd\u0ba4\u0baa\u0bcd \u0baa\u0ba3\u0ba4\u0bcd\u0ba4\u0bc8\u0baf\u0bc1\u0bae\u0bcd \u0b85\u0ba9\u0bc1\u0baa\u0bcd\u0baa \u0bb5\u0bc7\u0ba3\u0bcd\u0b9f\u0bbe\u0bae\u0bcd.\n2. OTP, \u0b86\u0ba4\u0bbe\u0bb0\u0bcd \u0b85\u0bb2\u0bcd\u0bb2\u0ba4\u0bc1 \u0bb5\u0b99\u0bcd\u0b95\u0bbf \u0bb5\u0bbf\u0bb5\u0bb0\u0b99\u0bcd\u0b95\u0bb3\u0bc8\u0baa\u0bcd \u0baa\u0b95\u0bbf\u0bb0 \u0bb5\u0bc7\u0ba3\u0bcd\u0b9f\u0bbe\u0bae\u0bcd.\n3. \u0bb8\u0bcd\u0b95\u0bc8\u0baa\u0bcd, \u0b9c\u0bc2\u0bae\u0bcd \u0b85\u0bb2\u0bcd\u0bb2\u0ba4\u0bc1 \u0bb5\u0bbe\u0b9f\u0bcd\u0bb8\u0bcd\u0b85\u0baa\u0bcd \u0bb5\u0bc0\u0b9f\u0bbf\u0baf\u0bcb \u0b85\u0bb4\u0bc8\u0baa\u0bcd\u0baa\u0bc1\u0b95\u0bb3\u0bc8 \u0b89\u0b9f\u0ba9\u0bc7 \u0ba4\u0bc1\u0ba3\u0bcd\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bb5\u0bc1\u0bae\u0bcd.\n4. \u0ba4\u0bc7\u0b9a\u0bbf\u0baf \u0b9a\u0bc8\u0baa\u0bb0\u0bcd \u0b95\u0bc1\u0bb1\u0bcd\u0bb1 \u0b89\u0ba4\u0bb5\u0bbf \u0b8e\u0ba3\u0bcd 1930 \u0b90 \u0b85\u0bb4\u0bc8\u0b95\u0bcd\u0b95\u0bb5\u0bc1\u0bae\u0bcd \u0b85\u0bb2\u0bcd\u0bb2\u0ba4\u0bc1 www.cybercrime.gov.in \u0b87\u0bb2\u0bcd \u0baa\u0bc1\u0b95\u0bbe\u0bb0\u0bcd \u0b9a\u0bc6\u0baf\u0bcd\u0baf\u0bb5\u0bc1\u0bae\u0bcd.",
+      "ncrp_handoff_packet": {
+        "portal": "NCRP (National Cyber Crime Reporting Portal)",
+        "auto_form_data": {
+          "incident_category": "Online Financial Fraud / Digital Arrest",
+          "evidence_transcript_snippet": "Urgent package customs clearance fee payment request",
+          "reported_timestamp": "2026-07-21 00:07:36",
+          "recommended_action": "Freeze target account, notify Telecom Circle",
+          "source_channel": "Citizen Mobile Application/WhatsApp Shield"
+        },
+        "api_endpoint": "https://api.cybercrime.gov.in/v1/report_draft",
+        "status": "DRAFT_READY_FOR_CITIZEN_SUBMISSION"
+      }
+    }
+  ]
+}

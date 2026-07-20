@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+opencv-python
+networkx
+matplotlib
+seaborn
+joblib
+folium
+geopy
+pytest
+python-dotenv
+google-generativeai

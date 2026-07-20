@@ -1,0 +1,92 @@
+[
+  {
+    "district": "New Delhi",
+    "hotspot_score": 100.0,
+    "complaints": 5,
+    "financial_loss": 2070815.0,
+    "priority_level": "CRITICAL (Immediate Dispatch)",
+    "threat_reasons": "5 complaints, 7 spoofed numbers, 4 linked UPI/mule IDs",
+    "recommendation_actions": "Deploy cyber investigation units, recommend telecom operator notification for suspicious numbers, and push citizen awareness SMS in high-risk zones."
+  },
+  {
+    "district": "Mumbai",
+    "hotspot_score": 100.0,
+    "complaints": 10,
+    "financial_loss": 4442124.0,
+    "priority_level": "CRITICAL (Immediate Dispatch)",
+    "threat_reasons": "10 complaints, 15 spoofed numbers, 8 linked UPI/mule IDs",
+    "recommendation_actions": "Deploy cyber investigation units, recommend telecom operator notification for suspicious numbers, and push citizen awareness SMS in high-risk zones."
+  },
+  {
+    "district": "Bengaluru",
+    "hotspot_score": 100.0,
+    "complaints": 17,
+    "financial_loss": 6426274.0,
+    "priority_level": "CRITICAL (Immediate Dispatch)",
+    "threat_reasons": "17 complaints, 25 spoofed numbers, 13 linked UPI/mule IDs",
+    "recommendation_actions": "Deploy cyber investigation units, recommend telecom operator notification for suspicious numbers, and push citizen awareness SMS in high-risk zones."
+  },
+  {
+    "district": "Hyderabad",
+    "hotspot_score": 100.0,
+    "complaints": 12,
+    "financial_loss": 4959793.0,
+    "priority_level": "CRITICAL (Immediate Dispatch)",
+    "threat_reasons": "12 complaints, 18 spoofed numbers, 9 linked UPI/mule IDs",
+    "recommendation_actions": "Deploy cyber investigation units, recommend telecom operator notification for suspicious numbers, and push citizen awareness SMS in high-risk zones."
+  },
+  {
+    "district": "Chennai",
+    "hotspot_score": 100.0,
+    "complaints": 11,
+    "financial_loss": 4208413.0,
+    "priority_level": "CRITICAL (Immediate Dispatch)",
+    "threat_reasons": "11 complaints, 16 spoofed numbers, 8 linked UPI/mule IDs",
+    "recommendation_actions": "Deploy cyber investigation units, recommend telecom operator notification for suspicious numbers, and push citizen awareness SMS in high-risk zones."
+  },
+  {
+    "district": "Kolkata",
+    "hotspot_score": 100.0,
+    "complaints": 6,
+    "financial_loss": 1853954.0,
+    "priority_level": "CRITICAL (Immediate Dispatch)",
+    "threat_reasons": "6 complaints, 9 spoofed numbers, 4 linked UPI/mule IDs",
+    "recommendation_actions": "Deploy cyber investigation units, recommend telecom operator notification for suspicious numbers, and push citizen awareness SMS in high-risk zones."
+  },
+  {
+    "district": "Pune",
+    "hotspot_score": 100.0,
+    "complaints": 8,
+    "financial_loss": 4845065.0,
+    "priority_level": "CRITICAL (Immediate Dispatch)",
+    "threat_reasons": "8 complaints, 12 spoofed numbers, 6 linked UPI/mule IDs",
+    "recommendation_actions": "Deploy cyber investigation units, recommend telecom operator notification for suspicious numbers, and push citizen awareness SMS in high-risk zones."
+  },
+  {
+    "district": "Ahmedabad",
+    "hotspot_score": 100.0,
+    "complaints": 14,
+    "financial_loss": 8107600.0,
+    "priority_level": "CRITICAL (Immediate Dispatch)",
+    "threat_reasons": "14 complaints, 21 spoofed numbers, 11 linked UPI/mule IDs",
+    "recommendation_actions": "Deploy cyber investigation units, recommend telecom operator notification for suspicious numbers, and push citizen awareness SMS in high-risk zones."
+  },
+  {
+    "district": "Gurugram",
+    "hotspot_score": 100.0,
+    "complaints": 8,
+    "financial_loss": 4814845.0,
+    "priority_level": "CRITICAL (Immediate Dispatch)",
+    "threat_reasons": "8 complaints, 12 spoofed numbers, 6 linked UPI/mule IDs",
+    "recommendation_actions": "Deploy cyber investigation units, recommend telecom operator notification for suspicious numbers, and push citizen awareness SMS in high-risk zones."
+  },
+  {
+    "district": "Noida",
+    "hotspot_score": 100.0,
+    "complaints": 9,
+    "financial_loss": 6392260.0,
+    "priority_level": "CRITICAL (Immediate Dispatch)",
+    "threat_reasons": "9 complaints, 13 spoofed numbers, 7 linked UPI/mule IDs",
+    "recommendation_actions": "Deploy cyber investigation units, recommend telecom operator notification for suspicious numbers, and push citizen awareness SMS in high-risk zones."
+  }
+]
