@@ -6,104 +6,104 @@
     {
       "file_analysed": "SIMULATED_STREAM_SAMPLE",
       "acoustic_metrics": {
-        "vocal_jitter_percent": 2.7497,
-        "vocal_shimmer_percent": 6.9207,
-        "pitch_variance_hz": 130.69,
-        "spectral_centroid_std": 308.19
+        "vocal_jitter_percent": 2.678,
+        "vocal_shimmer_percent": 7.8789,
+        "pitch_variance_hz": 86.78,
+        "spectral_centroid_std": 408.78
       },
       "voice_profile": "natural",
-      "confidence_score": 0.9318,
+      "confidence_score": 0.9147,
       "reasoning": "Natural vocal jitter, shimmer, and emotional pitch modulations present.",
       "alert_triggered": false
     },
     {
       "file_analysed": "SIMULATED_STREAM_SAMPLE",
       "acoustic_metrics": {
-        "vocal_jitter_percent": 1.7376,
-        "vocal_shimmer_percent": 6.1396,
-        "pitch_variance_hz": 149.38,
-        "spectral_centroid_std": 377.81
+        "vocal_jitter_percent": 2.2724,
+        "vocal_shimmer_percent": 7.7378,
+        "pitch_variance_hz": 96.67,
+        "spectral_centroid_std": 421.16
       },
       "voice_profile": "natural",
-      "confidence_score": 0.9261,
+      "confidence_score": 0.9416,
       "reasoning": "Natural vocal jitter, shimmer, and emotional pitch modulations present.",
       "alert_triggered": false
     },
     {
       "file_analysed": "SIMULATED_STREAM_SAMPLE",
       "acoustic_metrics": {
-        "vocal_jitter_percent": 0.2842,
-        "vocal_shimmer_percent": 2.4691,
-        "pitch_variance_hz": 26.59,
-        "spectral_centroid_std": 88.37
+        "vocal_jitter_percent": 0.3279,
+        "vocal_shimmer_percent": 1.8805,
+        "pitch_variance_hz": 23.99,
+        "spectral_centroid_std": 89.36
       },
       "voice_profile": "synthetic",
-      "confidence_score": 0.8902,
+      "confidence_score": 0.9292,
       "reasoning": "Extremely low Jitter & flat pitch line indicating AI TTS synthesis (cloned voice).",
       "alert_triggered": true
     },
     {
       "file_analysed": "SIMULATED_STREAM_SAMPLE",
       "acoustic_metrics": {
-        "vocal_jitter_percent": 2.4503,
-        "vocal_shimmer_percent": 4.0166,
-        "pitch_variance_hz": 126.73,
-        "spectral_centroid_std": 339.03
+        "vocal_jitter_percent": 3.1543,
+        "vocal_shimmer_percent": 6.9457,
+        "pitch_variance_hz": 120.59,
+        "spectral_centroid_std": 377.93
       },
       "voice_profile": "natural",
-      "confidence_score": 0.9351,
+      "confidence_score": 0.9737,
       "reasoning": "Natural vocal jitter, shimmer, and emotional pitch modulations present.",
       "alert_triggered": false
     },
     {
       "file_analysed": "SIMULATED_STREAM_SAMPLE",
       "acoustic_metrics": {
-        "vocal_jitter_percent": 1.3895,
-        "vocal_shimmer_percent": 6.104,
-        "pitch_variance_hz": 109.94,
-        "spectral_centroid_std": 346.36
+        "vocal_jitter_percent": 3.2904,
+        "vocal_shimmer_percent": 4.9631,
+        "pitch_variance_hz": 101.79,
+        "spectral_centroid_std": 386.03
       },
       "voice_profile": "natural",
-      "confidence_score": 0.9323,
+      "confidence_score": 0.938,
       "reasoning": "Natural vocal jitter, shimmer, and emotional pitch modulations present.",
       "alert_triggered": false
     },
     {
       "file_analysed": "SIMULATED_STREAM_SAMPLE",
       "acoustic_metrics": {
-        "vocal_jitter_percent": 0.3913,
-        "vocal_shimmer_percent": 2.7289,
-        "pitch_variance_hz": 18.97,
-        "spectral_centroid_std": 95.33
+        "vocal_jitter_percent": 0.2143,
+        "vocal_shimmer_percent": 1.4442,
+        "pitch_variance_hz": 29.69,
+        "spectral_centroid_std": 109.66
       },
       "voice_profile": "synthetic",
-      "confidence_score": 0.9009,
+      "confidence_score": 0.9493,
       "reasoning": "Extremely low Jitter & flat pitch line indicating AI TTS synthesis (cloned voice).",
       "alert_triggered": true
     },
     {
       "file_analysed": "SIMULATED_STREAM_SAMPLE",
       "acoustic_metrics": {
-        "vocal_jitter_percent": 1.6895,
-        "vocal_shimmer_percent": 6.2979,
-        "pitch_variance_hz": 97.61,
-        "spectral_centroid_std": 401.24
+        "vocal_jitter_percent": 3.1216,
+        "vocal_shimmer_percent": 8.4034,
+        "pitch_variance_hz": 95.95,
+        "spectral_centroid_std": 281.38
       },
       "voice_profile": "natural",
-      "confidence_score": 0.9476,
+      "confidence_score": 0.9066,
       "reasoning": "Natural vocal jitter, shimmer, and emotional pitch modulations present.",
       "alert_triggered": false
     },
     {
       "file_analysed": "SIMULATED_STREAM_SAMPLE",
       "acoustic_metrics": {
-        "vocal_jitter_percent": 0.3377,
-        "vocal_shimmer_percent": 2.7364,
-        "pitch_variance_hz": 27.95,
-        "spectral_centroid_std": 137.88
+        "vocal_jitter_percent": 0.2712,
+        "vocal_shimmer_percent": 1.8318,
+        "pitch_variance_hz": 31.67,
+        "spectral_centroid_std": 122.38
       },
       "voice_profile": "synthetic",
-      "confidence_score": 0.8976,
+      "confidence_score": 0.9567,
       "reasoning": "Extremely low Jitter & flat pitch line indicating AI TTS synthesis (cloned voice).",
       "alert_triggered": true
     }
