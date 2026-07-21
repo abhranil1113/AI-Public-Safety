@@ -1,23 +1,23 @@
 {
   "metadata": {
-    "report_id": "REP_2026-07-21_223223",
-    "timestamp_generated": "2026-07-21 22:32:23",
-    "cryptographic_hash": "7b62dcccf9ec25d2d6d4d5914092509964f1dcc0f325f8e2cd8b4830591967b8",
-    "previous_audit_chain_state": "7b62dcccf9ec25d2d6d4d5914092509964f1dcc0f325f8e2cd8b4830591967b8",
+    "report_id": "REP_2026-07-21_231437",
+    "timestamp_generated": "2026-07-21 23:14:37",
+    "cryptographic_hash": "ace900ac2bcdfa29b4e82c099b1c0d78a9ecd2b77e320aea604b81bf17cba45b",
+    "previous_audit_chain_state": "ace900ac2bcdfa29b4e82c099b1c0d78a9ecd2b77e320aea604b81bf17cba45b",
     "classification": "CONFIDENTIAL // LAW ENFORCEMENT ONLY"
   },
   "scam_telecom_stats": {
     "total_scanned": 150,
     "scams_detected": 91,
     "trigger_rate": 60.66666666666667,
-    "avg_reaction_latency_seconds": 0.698,
-    "total_lead_time_minutes_prevented": 2638.5,
-    "total_savings_inr": 50500000.0,
+    "avg_reaction_latency_seconds": 0.723,
+    "total_lead_time_minutes_prevented": 2782.8,
+    "total_savings_inr": 44550000.0,
     "alerts_dispatched": 91,
     "alerting_latencies": {
-      "avg_reaction_latency_seconds": 0.698,
-      "total_lead_time_minutes_prevented": 2638.5,
-      "estimated_financial_loss_prevented_inr": 50500000.0
+      "avg_reaction_latency_seconds": 0.723,
+      "total_lead_time_minutes_prevented": 2782.8,
+      "estimated_financial_loss_prevented_inr": 44550000.0
     }
   },
   "speech_ai_cloned_voice_stats": {
@@ -28,104 +28,104 @@
       {
         "file_analysed": "SIMULATED_STREAM_SAMPLE",
         "acoustic_metrics": {
-          "vocal_jitter_percent": 2.5431,
-          "vocal_shimmer_percent": 6.9375,
-          "pitch_variance_hz": 128.11,
-          "spectral_centroid_std": 333.1
+          "vocal_jitter_percent": 2.7497,
+          "vocal_shimmer_percent": 6.9207,
+          "pitch_variance_hz": 130.69,
+          "spectral_centroid_std": 308.19
         },
         "voice_profile": "natural",
-        "confidence_score": 0.954,
+        "confidence_score": 0.9318,
         "reasoning": "Natural vocal jitter, shimmer, and emotional pitch modulations present.",
         "alert_triggered": false
       },
       {
         "file_analysed": "SIMULATED_STREAM_SAMPLE",
         "acoustic_metrics": {
-          "vocal_jitter_percent": 2.1732,
-          "vocal_shimmer_percent": 4.1005,
-          "pitch_variance_hz": 142.97,
-          "spectral_centroid_std": 361.89
+          "vocal_jitter_percent": 1.7376,
+          "vocal_shimmer_percent": 6.1396,
+          "pitch_variance_hz": 149.38,
+          "spectral_centroid_std": 377.81
         },
         "voice_profile": "natural",
-        "confidence_score": 0.9117,
+        "confidence_score": 0.9261,
         "reasoning": "Natural vocal jitter, shimmer, and emotional pitch modulations present.",
         "alert_triggered": false
       },
       {
         "file_analysed": "SIMULATED_STREAM_SAMPLE",
         "acoustic_metrics": {
-          "vocal_jitter_percent": 0.3091,
-          "vocal_shimmer_percent": 2.024,
-          "pitch_variance_hz": 34.54,
-          "spectral_centroid_std": 126.04
+          "vocal_jitter_percent": 0.2842,
+          "vocal_shimmer_percent": 2.4691,
+          "pitch_variance_hz": 26.59,
+          "spectral_centroid_std": 88.37
         },
         "voice_profile": "synthetic",
-        "confidence_score": 0.9398,
+        "confidence_score": 0.8902,
         "reasoning": "Extremely low Jitter & flat pitch line indicating AI TTS synthesis (cloned voice).",
         "alert_triggered": true
       },
       {
         "file_analysed": "SIMULATED_STREAM_SAMPLE",
         "acoustic_metrics": {
-          "vocal_jitter_percent": 3.1599,
-          "vocal_shimmer_percent": 4.263,
-          "pitch_variance_hz": 60.28,
-          "spectral_centroid_std": 342.08
+          "vocal_jitter_percent": 2.4503,
+          "vocal_shimmer_percent": 4.0166,
+          "pitch_variance_hz": 126.73,
+          "spectral_centroid_std": 339.03
         },
         "voice_profile": "natural",
-        "confidence_score": 0.9227,
+        "confidence_score": 0.9351,
         "reasoning": "Natural vocal jitter, shimmer, and emotional pitch modulations present.",
         "alert_triggered": false
       },
       {
         "file_analysed": "SIMULATED_STREAM_SAMPLE",
         "acoustic_metrics": {
-          "vocal_jitter_percent": 2.1909,
-          "vocal_shimmer_percent": 4.0498,
-          "pitch_variance_hz": 143.44,
-          "spectral_centroid_std": 359.13
+          "vocal_jitter_percent": 1.3895,
+          "vocal_shimmer_percent": 6.104,
+          "pitch_variance_hz": 109.94,
+          "spectral_centroid_std": 346.36
         },
         "voice_profile": "natural",
-        "confidence_score": 0.9684,
+        "confidence_score": 0.9323,
         "reasoning": "Natural vocal jitter, shimmer, and emotional pitch modulations present.",
         "alert_triggered": false
       },
       {
         "file_analysed": "SIMULATED_STREAM_SAMPLE",
         "acoustic_metrics": {
-          "vocal_jitter_percent": 0.1141,
-          "vocal_shimmer_percent": 1.8813,
-          "pitch_variance_hz": 27.1,
-          "spectral_centroid_std": 125.91
+          "vocal_jitter_percent": 0.3913,
+          "vocal_shimmer_percent": 2.7289,
+          "pitch_variance_hz": 18.97,
+          "spectral_centroid_std": 95.33
         },
         "voice_profile": "synthetic",
-        "confidence_score": 0.9289,
+        "confidence_score": 0.9009,
         "reasoning": "Extremely low Jitter & flat pitch line indicating AI TTS synthesis (cloned voice).",
         "alert_triggered": true
       },
       {
         "file_analysed": "SIMULATED_STREAM_SAMPLE",
         "acoustic_metrics": {
-          "vocal_jitter_percent": 2.8711,
-          "vocal_shimmer_percent": 4.2867,
-          "pitch_variance_hz": 66.17,
-          "spectral_centroid_std": 349.72
+          "vocal_jitter_percent": 1.6895,
+          "vocal_shimmer_percent": 6.2979,
+          "pitch_variance_hz": 97.61,
+          "spectral_centroid_std": 401.24
         },
         "voice_profile": "natural",
-        "confidence_score": 0.9207,
+        "confidence_score": 0.9476,
         "reasoning": "Natural vocal jitter, shimmer, and emotional pitch modulations present.",
         "alert_triggered": false
       },
       {
         "file_analysed": "SIMULATED_STREAM_SAMPLE",
         "acoustic_metrics": {
-          "vocal_jitter_percent": 0.1791,
-          "vocal_shimmer_percent": 1.9696,
-          "pitch_variance_hz": 18.59,
-          "spectral_centroid_std": 128.24
+          "vocal_jitter_percent": 0.3377,
+          "vocal_shimmer_percent": 2.7364,
+          "pitch_variance_hz": 27.95,
+          "spectral_centroid_std": 137.88
         },
         "voice_profile": "synthetic",
-        "confidence_score": 0.959,
+        "confidence_score": 0.8976,
         "reasoning": "Extremely low Jitter & flat pitch line indicating AI TTS synthesis (cloned voice).",
         "alert_triggered": true
       }
@@ -153,7 +153,7 @@
           "auto_form_data": {
             "incident_category": "Online Financial Fraud / Digital Arrest",
             "evidence_transcript_snippet": "I got a call from CBI saying my card is linked to drugs in Mumbai",
-            "reported_timestamp": "2026-07-21 22:31:09",
+            "reported_timestamp": "2026-07-21 23:13:55",
             "recommended_action": "Freeze target account, notify Telecom Circle",
             "source_channel": "Citizen Mobile Application/WhatsApp Shield"
           },
@@ -173,7 +173,7 @@
           "auto_form_data": {
             "incident_category": "Online Financial Fraud / Digital Arrest",
             "evidence_transcript_snippet": "Please transfer money to release lottery funds from KBC portal",
-            "reported_timestamp": "2026-07-21 22:31:09",
+            "reported_timestamp": "2026-07-21 23:13:55",
             "recommended_action": "Freeze target account, notify Telecom Circle",
             "source_channel": "Citizen Mobile Application/WhatsApp Shield"
           },
@@ -193,7 +193,7 @@
           "auto_form_data": {
             "incident_category": "Online Financial Fraud / Digital Arrest",
             "evidence_transcript_snippet": "TRAI warning message says mobile block in 2 hours link Aadhaar",
-            "reported_timestamp": "2026-07-21 22:31:09",
+            "reported_timestamp": "2026-07-21 23:13:55",
             "recommended_action": "Freeze target account, notify Telecom Circle",
             "source_channel": "Citizen Mobile Application/WhatsApp Shield"
           },
@@ -213,7 +213,7 @@
           "auto_form_data": {
             "incident_category": "Online Financial Fraud / Digital Arrest",
             "evidence_transcript_snippet": "Urgent package customs clearance fee payment request",
-            "reported_timestamp": "2026-07-21 22:31:09",
+            "reported_timestamp": "2026-07-21 23:13:55",
             "recommended_action": "Freeze target account, notify Telecom Circle",
             "source_channel": "Citizen Mobile Application/WhatsApp Shield"
           },
@@ -235,172 +235,172 @@
       "associated_accounts": 54,
       "associated_devices": [
         "DEV_506",
-        "DEV_688",
-        "DEV_204",
-        "DEV_909",
-        "DEV_720",
-        "DEV_781",
-        "DEV_302",
-        "DEV_488",
-        "DEV_338",
-        "DEV_645",
-        "DEV_273",
-        "DEV_778",
-        "DEV_574",
-        "DEV_212",
-        "DEV_793",
-        "DEV_399",
-        "DEV_949",
-        "DEV_103",
-        "DEV_130",
-        "DEV_333",
-        "DEV_972",
-        "DEV_201",
-        "DEV_512",
-        "DEV_619",
-        "DEV_197",
-        "DEV_827",
-        "DEV_753",
         "DEV_882",
-        "DEV_555",
-        "DEV_614",
-        "DEV_755",
-        "DEV_785",
-        "DEV_611",
-        "DEV_394",
-        "DEV_234",
-        "DEV_618",
-        "DEV_139",
-        "DEV_528",
-        "DEV_349",
-        "DEV_424",
-        "DEV_FRAUD_999",
-        "DEV_800",
         "DEV_176",
-        "DEV_622",
-        "DEV_884",
-        "DEV_101",
-        "DEV_681",
-        "DEV_653",
-        "DEV_583",
-        "DEV_467",
-        "DEV_313",
-        "DEV_490",
+        "DEV_399",
         "DEV_918",
-        "DEV_408"
+        "DEV_793",
+        "DEV_884",
+        "DEV_313",
+        "DEV_512",
+        "DEV_101",
+        "DEV_302",
+        "DEV_103",
+        "DEV_622",
+        "DEV_574",
+        "DEV_201",
+        "DEV_130",
+        "DEV_139",
+        "DEV_424",
+        "DEV_611",
+        "DEV_785",
+        "DEV_972",
+        "DEV_467",
+        "DEV_800",
+        "DEV_394",
+        "DEV_583",
+        "DEV_949",
+        "DEV_781",
+        "DEV_234",
+        "DEV_204",
+        "DEV_197",
+        "DEV_333",
+        "DEV_490",
+        "DEV_688",
+        "DEV_338",
+        "DEV_349",
+        "DEV_528",
+        "DEV_755",
+        "DEV_273",
+        "DEV_645",
+        "DEV_555",
+        "DEV_653",
+        "DEV_681",
+        "DEV_827",
+        "DEV_778",
+        "DEV_212",
+        "DEV_720",
+        "DEV_408",
+        "DEV_619",
+        "DEV_909",
+        "DEV_488",
+        "DEV_614",
+        "DEV_FRAUD_999",
+        "DEV_753",
+        "DEV_618"
       ],
       "linked_complaints_count": 0,
       "total_fraud_volume": 9085417.28,
       "syndicate_risk": "HIGH",
       "nodes": [
-        "ACC_256901",
-        "ACC_572999",
-        "ACC_611618",
         "DEV_506",
-        "DEV_688",
-        "ACC_196278",
-        "DEV_204",
-        "ACC_729404",
-        "DEV_909",
-        "ACC_360630",
-        "DEV_720",
-        "ACC_757785",
-        "DEV_781",
-        "ACC_325596",
-        "DEV_302",
-        "ACC_686866",
-        "MULE_90443",
-        "ACC_750214",
-        "ACC_121036",
-        "DEV_488",
-        "DEV_338",
-        "ACC_141528",
-        "DEV_645",
-        "ACC_807352",
-        "ACC_754740",
-        "DEV_273",
-        "ACC_708300",
-        "ACC_177000",
-        "DEV_778",
-        "ACC_324156",
-        "DEV_574",
-        "DEV_212",
-        "ACC_765097",
-        "DEV_793",
-        "ACC_769058",
-        "ACC_110988",
-        "DEV_399",
-        "DEV_949",
-        "MULE_72490",
-        "ACC_102609",
-        "DEV_103",
-        "ACC_849704",
-        "DEV_130",
-        "ACC_482093",
-        "ACC_829480",
-        "ACC_799116",
-        "ACC_957078",
-        "DEV_333",
-        "ACC_705279",
-        "ACC_652773",
-        "DEV_972",
-        "DEV_201",
-        "DEV_512",
-        "ACC_237873",
-        "DEV_619",
-        "ACC_634536",
-        "ACC_685696",
-        "ACC_305455",
-        "DEV_197",
-        "DEV_827",
-        "DEV_753",
         "DEV_882",
-        "DEV_555",
-        "ACC_784526",
-        "DEV_614",
-        "DEV_755",
-        "DEV_785",
-        "DEV_611",
-        "ACC_517561",
-        "DEV_394",
-        "DEV_234",
-        "MULE_66963",
-        "ACC_625493",
-        "ACC_620851",
-        "DEV_618",
-        "ACC_199586",
-        "ACC_360495",
-        "DEV_139",
-        "DEV_528",
-        "DEV_349",
-        "MULE_41588",
-        "DEV_424",
-        "DEV_FRAUD_999",
-        "DEV_800",
-        "ACC_526713",
-        "ACC_505309",
         "DEV_176",
-        "ACC_860995",
-        "ACC_556310",
-        "ACC_425318",
-        "ACC_524505",
-        "ACC_559542",
-        "DEV_622",
-        "ACC_487887",
-        "DEV_884",
-        "DEV_101",
-        "DEV_681",
-        "ACC_239858",
-        "ACC_624905",
-        "DEV_653",
-        "DEV_583",
-        "DEV_467",
-        "DEV_313",
-        "DEV_490",
+        "ACC_324156",
+        "DEV_399",
+        "ACC_620851",
         "DEV_918",
+        "DEV_793",
+        "ACC_705279",
+        "DEV_884",
+        "ACC_196278",
+        "DEV_313",
+        "DEV_512",
+        "ACC_611618",
+        "ACC_686866",
+        "ACC_685696",
+        "DEV_101",
+        "DEV_302",
+        "ACC_517561",
+        "ACC_652773",
+        "DEV_103",
+        "ACC_624905",
+        "DEV_622",
+        "ACC_757785",
+        "ACC_769058",
+        "DEV_574",
+        "ACC_425318",
+        "DEV_201",
+        "ACC_256901",
+        "DEV_130",
+        "ACC_765097",
+        "ACC_239858",
+        "DEV_139",
+        "ACC_102609",
+        "ACC_634536",
+        "DEV_424",
+        "ACC_559542",
+        "ACC_829480",
+        "MULE_41588",
+        "ACC_729404",
+        "ACC_110988",
+        "ACC_237873",
+        "DEV_611",
+        "DEV_785",
+        "ACC_860995",
+        "MULE_66963",
+        "ACC_957078",
+        "DEV_972",
+        "DEV_467",
+        "ACC_572999",
+        "ACC_526713",
+        "MULE_90443",
+        "DEV_800",
+        "DEV_394",
+        "DEV_583",
+        "DEV_949",
+        "ACC_121036",
+        "DEV_781",
+        "ACC_524505",
+        "DEV_234",
+        "DEV_204",
+        "DEV_197",
+        "DEV_333",
+        "DEV_490",
+        "ACC_482093",
+        "ACC_754740",
+        "DEV_688",
+        "ACC_360495",
+        "ACC_360630",
+        "DEV_338",
+        "ACC_849704",
+        "MULE_72490",
+        "MULE_74127",
+        "ACC_708300",
+        "ACC_141528",
         "ACC_283033",
+        "DEV_349",
+        "DEV_528",
+        "DEV_755",
+        "ACC_799116",
+        "DEV_273",
+        "ACC_556310",
+        "DEV_645",
+        "DEV_555",
+        "DEV_653",
+        "DEV_681",
+        "ACC_750214",
+        "DEV_827",
+        "ACC_487887",
+        "DEV_778",
+        "DEV_212",
+        "DEV_720",
         "DEV_408",
-        "MULE_74127"
+        "ACC_625493",
+        "ACC_807352",
+        "ACC_177000",
+        "ACC_784526",
+        "DEV_619",
+        "DEV_909",
+        "DEV_488",
+        "ACC_305455",
+        "DEV_614",
+        "DEV_FRAUD_999",
+        "ACC_199586",
+        "DEV_753",
+        "ACC_505309",
+        "DEV_618",
+        "ACC_325596"
       ]
     },
     {
@@ -408,161 +408,161 @@
       "ring_size_nodes": 101,
       "associated_accounts": 52,
       "associated_devices": [
-        "DEV_475",
-        "DEV_132",
-        "DEV_302",
-        "DEV_209",
-        "DEV_502",
-        "DEV_749",
-        "DEV_521",
-        "DEV_722",
-        "DEV_413",
-        "DEV_750",
-        "DEV_284",
-        "DEV_682",
-        "DEV_429",
-        "DEV_833",
-        "DEV_121",
-        "DEV_207",
-        "DEV_485",
-        "DEV_119",
-        "DEV_787",
-        "DEV_539",
-        "DEV_980",
-        "DEV_333",
-        "DEV_710",
-        "DEV_996",
-        "DEV_685",
-        "DEV_454",
-        "DEV_179",
-        "DEV_968",
-        "DEV_497",
-        "DEV_386",
-        "DEV_458",
-        "DEV_824",
-        "DEV_486",
         "DEV_866",
-        "DEV_155",
-        "DEV_785",
-        "DEV_904",
-        "DEV_560",
-        "DEV_586",
-        "DEV_385",
-        "DEV_817",
         "DEV_686",
-        "DEV_FRAUD_999",
-        "DEV_927",
-        "DEV_774",
-        "DEV_653",
-        "DEV_467",
         "DEV_313",
-        "DEV_448"
+        "DEV_302",
+        "DEV_685",
+        "DEV_539",
+        "DEV_448",
+        "DEV_502",
+        "DEV_904",
+        "DEV_968",
+        "DEV_386",
+        "DEV_710",
+        "DEV_980",
+        "DEV_209",
+        "DEV_119",
+        "DEV_586",
+        "DEV_179",
+        "DEV_750",
+        "DEV_787",
+        "DEV_132",
+        "DEV_785",
+        "DEV_521",
+        "DEV_560",
+        "DEV_467",
+        "DEV_475",
+        "DEV_833",
+        "DEV_458",
+        "DEV_413",
+        "DEV_333",
+        "DEV_682",
+        "DEV_284",
+        "DEV_155",
+        "DEV_817",
+        "DEV_121",
+        "DEV_485",
+        "DEV_429",
+        "DEV_749",
+        "DEV_653",
+        "DEV_996",
+        "DEV_385",
+        "DEV_927",
+        "DEV_497",
+        "DEV_454",
+        "DEV_486",
+        "DEV_722",
+        "DEV_774",
+        "DEV_207",
+        "DEV_FRAUD_999",
+        "DEV_824"
       ],
       "linked_complaints_count": 0,
       "total_fraud_volume": 8743478.24,
       "syndicate_risk": "HIGH",
       "nodes": [
-        "ACC_256901",
-        "ACC_572999",
-        "DEV_475",
+        "DEV_866",
+        "ACC_620851",
+        "ACC_705279",
+        "DEV_686",
+        "DEV_313",
         "ACC_611618",
-        "ACC_729404",
-        "ACC_360630",
-        "DEV_132",
-        "ACC_757785",
-        "ACC_325596",
-        "DEV_302",
-        "DEV_209",
-        "DEV_502",
         "ACC_686866",
-        "MULE_90443",
-        "DEV_749",
+        "ACC_685696",
+        "DEV_302",
+        "ACC_517561",
+        "DEV_685",
+        "ACC_652773",
+        "ACC_624905",
+        "DEV_539",
+        "ACC_757785",
+        "ACC_769058",
+        "DEV_448",
+        "DEV_502",
+        "DEV_904",
+        "ACC_833028",
+        "DEV_968",
+        "ACC_256901",
+        "DEV_386",
+        "ACC_765097",
+        "DEV_710",
+        "ACC_239858",
+        "DEV_980",
+        "DEV_209",
+        "ACC_102609",
+        "ACC_634536",
+        "DEV_119",
+        "DEV_586",
+        "ACC_829480",
+        "DEV_179",
+        "MULE_41588",
+        "ACC_729404",
+        "ACC_110988",
+        "ACC_237873",
+        "DEV_750",
+        "DEV_787",
+        "DEV_132",
+        "DEV_785",
         "DEV_521",
-        "DEV_722",
-        "ACC_750214",
+        "ACC_860995",
+        "MULE_66963",
+        "ACC_957078",
+        "DEV_560",
+        "ACC_526713",
+        "ACC_572999",
+        "DEV_467",
+        "MULE_90443",
+        "DEV_475",
+        "DEV_833",
+        "DEV_458",
         "ACC_121036",
         "DEV_413",
-        "DEV_750",
-        "DEV_284",
-        "DEV_682",
-        "ACC_141528",
-        "DEV_429",
-        "ACC_807352",
-        "DEV_833",
-        "ACC_754740",
-        "DEV_121",
-        "ACC_708300",
-        "DEV_207",
-        "ACC_177000",
-        "DEV_485",
-        "ACC_765097",
-        "DEV_119",
-        "ACC_769058",
-        "ACC_216878",
-        "ACC_110988",
-        "MULE_72490",
-        "ACC_102609",
-        "DEV_787",
-        "ACC_849704",
-        "DEV_539",
-        "ACC_482093",
-        "DEV_980",
-        "ACC_829480",
-        "ACC_799116",
-        "ACC_957078",
-        "DEV_333",
-        "ACC_705279",
-        "ACC_652773",
-        "DEV_710",
-        "DEV_996",
-        "DEV_685",
-        "ACC_237873",
-        "ACC_634536",
-        "ACC_685696",
-        "ACC_305455",
-        "DEV_454",
-        "DEV_179",
-        "DEV_968",
-        "DEV_497",
-        "DEV_386",
-        "DEV_458",
-        "ACC_784526",
-        "DEV_824",
-        "DEV_486",
-        "DEV_866",
-        "DEV_155",
-        "ACC_990038",
-        "DEV_785",
-        "ACC_517561",
-        "ACC_625493",
-        "MULE_66963",
-        "DEV_904",
-        "ACC_620851",
-        "ACC_199586",
-        "ACC_833028",
-        "ACC_360495",
-        "DEV_560",
-        "DEV_586",
-        "DEV_385",
-        "DEV_817",
-        "DEV_686",
-        "MULE_41588",
-        "DEV_FRAUD_999",
-        "DEV_927",
-        "ACC_526713",
-        "ACC_505309",
-        "ACC_860995",
-        "ACC_556310",
         "ACC_524505",
-        "DEV_774",
-        "ACC_487887",
-        "ACC_239858",
-        "ACC_624905",
+        "DEV_333",
+        "ACC_482093",
+        "ACC_754740",
+        "DEV_682",
+        "ACC_360495",
+        "DEV_284",
+        "ACC_360630",
+        "DEV_155",
+        "ACC_849704",
+        "MULE_72490",
+        "ACC_708300",
+        "MULE_74127",
+        "DEV_817",
+        "ACC_141528",
+        "DEV_121",
+        "DEV_485",
+        "DEV_429",
+        "ACC_799116",
+        "ACC_556310",
+        "DEV_749",
         "DEV_653",
-        "DEV_467",
-        "DEV_313",
-        "DEV_448",
-        "MULE_74127"
+        "DEV_996",
+        "ACC_990038",
+        "ACC_750214",
+        "ACC_487887",
+        "DEV_385",
+        "DEV_927",
+        "DEV_497",
+        "DEV_454",
+        "DEV_486",
+        "DEV_722",
+        "ACC_216878",
+        "ACC_625493",
+        "ACC_784526",
+        "ACC_177000",
+        "ACC_807352",
+        "DEV_774",
+        "DEV_207",
+        "ACC_305455",
+        "DEV_FRAUD_999",
+        "ACC_199586",
+        "DEV_824",
+        "ACC_505309",
+        "ACC_325596"
       ]
     },
     {
@@ -570,135 +570,135 @@
       "ring_size_nodes": 87,
       "associated_accounts": 50,
       "associated_devices": [
-        "DEV_185",
-        "DEV_648",
-        "DEV_161",
-        "DEV_688",
-        "DEV_204",
-        "DEV_722",
-        "DEV_417",
-        "DEV_631",
-        "DEV_865",
-        "DEV_292",
-        "DEV_338",
-        "DEV_265",
-        "DEV_818",
-        "DEV_962",
-        "DEV_477",
-        "DEV_399",
-        "DEV_961",
-        "DEV_709",
-        "DEV_630",
-        "DEV_443",
-        "DEV_254",
-        "DEV_706",
-        "DEV_393",
-        "DEV_827",
         "DEV_901",
-        "DEV_555",
+        "DEV_254",
+        "DEV_399",
+        "DEV_161",
+        "DEV_818",
+        "DEV_630",
+        "DEV_357",
+        "DEV_313",
+        "DEV_865",
+        "DEV_709",
+        "DEV_200",
+        "DEV_639",
         "DEV_599",
         "DEV_785",
-        "DEV_357",
-        "DEV_639",
+        "DEV_631",
+        "DEV_961",
+        "DEV_477",
+        "DEV_393",
+        "DEV_204",
+        "DEV_417",
         "DEV_579",
-        "DEV_618",
-        "DEV_FRAUD_999",
+        "DEV_688",
+        "DEV_962",
+        "DEV_338",
+        "DEV_185",
+        "DEV_265",
+        "DEV_555",
         "DEV_156",
+        "DEV_292",
         "DEV_681",
-        "DEV_200",
-        "DEV_313"
+        "DEV_443",
+        "DEV_648",
+        "DEV_827",
+        "DEV_706",
+        "DEV_722",
+        "DEV_FRAUD_999",
+        "DEV_618"
       ],
       "linked_complaints_count": 0,
       "total_fraud_volume": 7085246.51,
       "syndicate_risk": "HIGH",
       "nodes": [
-        "ACC_256901",
-        "ACC_572999",
-        "DEV_185",
-        "DEV_648",
-        "ACC_611618",
-        "DEV_161",
-        "DEV_688",
-        "ACC_196278",
-        "DEV_204",
-        "ACC_729404",
-        "ACC_360630",
-        "ACC_757785",
-        "ACC_325596",
-        "ACC_686866",
-        "MULE_90443",
-        "DEV_722",
-        "DEV_417",
-        "DEV_631",
-        "ACC_750214",
-        "DEV_865",
-        "DEV_292",
-        "DEV_338",
-        "DEV_265",
-        "DEV_818",
-        "ACC_141528",
-        "ACC_807352",
-        "ACC_754740",
-        "ACC_177000",
-        "DEV_962",
-        "DEV_477",
-        "ACC_765097",
-        "ACC_110988",
-        "DEV_399",
-        "ACC_769058",
-        "ACC_216878",
-        "MULE_72490",
-        "ACC_102609",
-        "ACC_849704",
-        "ACC_482093",
-        "ACC_829480",
-        "DEV_961",
-        "ACC_799116",
-        "DEV_709",
-        "ACC_705279",
-        "ACC_652773",
-        "DEV_630",
-        "DEV_443",
-        "DEV_254",
-        "DEV_706",
-        "ACC_237873",
-        "DEV_393",
-        "ACC_634536",
-        "ACC_685696",
-        "ACC_305455",
-        "DEV_827",
         "DEV_901",
-        "DEV_555",
-        "DEV_599",
-        "ACC_784526",
-        "ACC_990038",
-        "DEV_785",
-        "DEV_357",
-        "ACC_517561",
-        "DEV_639",
-        "MULE_66963",
-        "ACC_625493",
-        "DEV_579",
+        "DEV_254",
+        "DEV_399",
+        "DEV_161",
         "ACC_620851",
-        "DEV_618",
-        "ACC_360495",
-        "MULE_41588",
-        "DEV_FRAUD_999",
-        "ACC_526713",
-        "ACC_505309",
-        "ACC_860995",
-        "ACC_556310",
-        "ACC_524505",
-        "ACC_559542",
-        "DEV_156",
-        "ACC_487887",
-        "DEV_681",
-        "ACC_239858",
-        "ACC_624905",
-        "DEV_200",
+        "DEV_818",
+        "ACC_705279",
+        "ACC_196278",
+        "DEV_630",
+        "DEV_357",
         "DEV_313",
+        "ACC_611618",
+        "ACC_686866",
+        "DEV_865",
+        "DEV_709",
+        "ACC_685696",
+        "DEV_200",
+        "DEV_639",
+        "ACC_517561",
+        "ACC_652773",
+        "ACC_624905",
+        "ACC_757785",
+        "ACC_769058",
+        "ACC_256901",
+        "ACC_765097",
+        "ACC_239858",
+        "ACC_102609",
+        "ACC_634536",
+        "ACC_559542",
+        "ACC_829480",
+        "DEV_599",
+        "MULE_41588",
+        "ACC_729404",
+        "ACC_110988",
+        "ACC_237873",
+        "DEV_785",
+        "ACC_860995",
+        "MULE_66963",
+        "ACC_526713",
+        "ACC_572999",
+        "MULE_90443",
+        "DEV_631",
+        "DEV_961",
+        "DEV_477",
+        "ACC_524505",
+        "DEV_393",
+        "DEV_204",
+        "DEV_417",
+        "ACC_482093",
+        "ACC_754740",
+        "DEV_579",
+        "DEV_688",
+        "DEV_962",
+        "ACC_360495",
+        "ACC_360630",
+        "DEV_338",
+        "DEV_185",
+        "ACC_849704",
+        "MULE_72490",
+        "MULE_74127",
+        "ACC_141528",
         "ACC_283033",
-        "MULE_74127"
+        "ACC_799116",
+        "DEV_265",
+        "ACC_556310",
+        "DEV_555",
+        "DEV_156",
+        "DEV_292",
+        "DEV_681",
+        "DEV_443",
+        "ACC_990038",
+        "DEV_648",
+        "ACC_750214",
+        "DEV_827",
+        "ACC_487887",
+        "DEV_706",
+        "DEV_722",
+        "ACC_216878",
+        "ACC_625493",
+        "ACC_807352",
+        "ACC_177000",
+        "ACC_784526",
+        "ACC_305455",
+        "DEV_FRAUD_999",
+        "ACC_505309",
+        "DEV_618",
+        "ACC_325596"
       ]
     },
     {
@@ -706,137 +706,137 @@
       "ring_size_nodes": 89,
       "associated_accounts": 52,
       "associated_devices": [
-        "DEV_524",
-        "DEV_185",
-        "DEV_354",
-        "DEV_343",
-        "DEV_762",
-        "DEV_265",
-        "DEV_120",
-        "DEV_737",
-        "DEV_891",
-        "DEV_977",
-        "DEV_778",
-        "DEV_533",
         "DEV_724",
-        "DEV_949",
-        "DEV_168",
+        "DEV_524",
         "DEV_801",
-        "DEV_130",
         "DEV_630",
-        "DEV_443",
-        "DEV_726",
-        "DEV_201",
         "DEV_430",
-        "DEV_755",
-        "DEV_790",
-        "DEV_378",
-        "DEV_385",
+        "DEV_726",
+        "DEV_737",
+        "DEV_201",
+        "DEV_130",
         "DEV_139",
-        "DEV_FRAUD_999",
-        "DEV_523",
-        "DEV_129",
-        "DEV_575",
-        "DEV_681",
-        "DEV_971",
+        "DEV_977",
         "DEV_467",
+        "DEV_891",
+        "DEV_354",
+        "DEV_949",
+        "DEV_523",
         "DEV_490",
+        "DEV_343",
+        "DEV_129",
+        "DEV_120",
+        "DEV_185",
+        "DEV_790",
+        "DEV_971",
+        "DEV_575",
+        "DEV_755",
+        "DEV_265",
+        "DEV_533",
+        "DEV_681",
+        "DEV_443",
+        "DEV_778",
+        "DEV_385",
+        "DEV_408",
+        "DEV_168",
+        "DEV_762",
+        "DEV_378",
         "DEV_912",
-        "DEV_408"
+        "DEV_FRAUD_999"
       ],
       "linked_complaints_count": 0,
       "total_fraud_volume": 5101087.78,
       "syndicate_risk": "HIGH",
       "nodes": [
-        "DEV_524",
-        "ACC_256901",
-        "ACC_572999",
-        "DEV_185",
-        "ACC_611618",
-        "ACC_196278",
-        "ACC_729404",
-        "ACC_360630",
-        "ACC_757785",
-        "DEV_354",
-        "DEV_343",
-        "ACC_325596",
-        "ACC_686866",
-        "MULE_90443",
-        "DEV_762",
-        "ACC_750214",
-        "ACC_121036",
-        "DEV_265",
-        "DEV_120",
-        "ACC_141528",
-        "DEV_737",
-        "ACC_807352",
-        "ACC_754740",
-        "DEV_891",
-        "DEV_977",
-        "ACC_177000",
-        "DEV_778",
-        "ACC_324156",
-        "DEV_533",
-        "ACC_765097",
         "DEV_724",
-        "ACC_769058",
-        "ACC_110988",
-        "ACC_216878",
-        "DEV_949",
-        "DEV_168",
-        "MULE_72490",
+        "ACC_324156",
+        "DEV_524",
         "DEV_801",
-        "DEV_130",
-        "ACC_482093",
-        "ACC_829480",
-        "ACC_799116",
-        "ACC_957078",
-        "ACC_705279",
-        "ACC_652773",
-        "DEV_630",
-        "DEV_443",
-        "DEV_726",
-        "DEV_201",
-        "ACC_237873",
-        "DEV_430",
-        "ACC_634536",
-        "ACC_685696",
-        "ACC_305455",
-        "ACC_784526",
-        "DEV_755",
-        "ACC_990038",
-        "ACC_517561",
-        "DEV_790",
-        "MULE_66963",
-        "ACC_625493",
         "ACC_620851",
-        "ACC_199586",
-        "DEV_378",
-        "ACC_360495",
-        "ACC_840529",
-        "DEV_385",
-        "DEV_139",
-        "MULE_41588",
-        "DEV_FRAUD_999",
-        "DEV_523",
-        "ACC_526713",
-        "DEV_129",
-        "ACC_505309",
-        "DEV_575",
-        "ACC_860995",
-        "ACC_556310",
-        "ACC_524505",
-        "ACC_487887",
-        "DEV_681",
-        "DEV_971",
-        "ACC_239858",
+        "ACC_705279",
+        "ACC_196278",
+        "DEV_630",
+        "ACC_611618",
+        "ACC_686866",
+        "ACC_685696",
+        "DEV_430",
+        "DEV_726",
+        "DEV_737",
+        "ACC_517561",
+        "ACC_652773",
         "ACC_624905",
+        "ACC_757785",
+        "ACC_769058",
+        "ACC_256901",
+        "DEV_201",
+        "DEV_130",
+        "ACC_765097",
+        "ACC_239858",
+        "DEV_139",
+        "ACC_634536",
+        "ACC_829480",
+        "MULE_41588",
+        "ACC_729404",
+        "ACC_110988",
+        "ACC_237873",
+        "ACC_860995",
+        "DEV_977",
+        "MULE_66963",
+        "ACC_957078",
         "DEV_467",
+        "ACC_572999",
+        "ACC_526713",
+        "MULE_90443",
+        "DEV_891",
+        "DEV_354",
+        "DEV_949",
+        "ACC_121036",
+        "ACC_524505",
+        "DEV_523",
         "DEV_490",
-        "DEV_912",
+        "ACC_482093",
+        "ACC_754740",
+        "ACC_360495",
+        "DEV_343",
+        "ACC_360630",
+        "DEV_129",
+        "DEV_120",
+        "DEV_185",
+        "DEV_790",
+        "MULE_72490",
+        "ACC_840529",
+        "MULE_74127",
+        "DEV_971",
+        "ACC_141528",
         "ACC_283033",
+        "DEV_575",
+        "DEV_755",
+        "ACC_799116",
+        "DEV_265",
+        "ACC_556310",
+        "DEV_533",
+        "DEV_681",
+        "DEV_443",
+        "ACC_990038",
+        "ACC_750214",
+        "ACC_487887",
+        "DEV_778",
+        "DEV_385",
+        "ACC_216878",
         "DEV_408",
-        "MULE_74127"
+        "DEV_168",
+        "DEV_762",
+        "ACC_625493",
+        "DEV_378",
+        "ACC_807352",
+        "ACC_177000",
+        "ACC_784526",
+        "ACC_305455",
+        "DEV_912",
+        "DEV_FRAUD_999",
+        "ACC_199586",
+        "ACC_505309",
+        "ACC_325596"
       ]
     },
     {
@@ -844,129 +844,129 @@
       "ring_size_nodes": 83,
       "associated_accounts": 52,
       "associated_devices": [
-        "DEV_282",
-        "DEV_688",
-        "DEV_909",
-        "DEV_720",
-        "DEV_645",
-        "DEV_207",
-        "DEV_485",
-        "DEV_574",
-        "DEV_212",
-        "DEV_793",
-        "DEV_119",
-        "DEV_103",
-        "DEV_333",
-        "DEV_710",
-        "DEV_201",
-        "DEV_512",
-        "DEV_666",
-        "DEV_753",
         "DEV_882",
-        "DEV_486",
-        "DEV_394",
-        "DEV_904",
-        "DEV_586",
-        "DEV_385",
-        "DEV_528",
-        "DEV_349",
-        "DEV_FRAUD_999",
-        "DEV_800",
         "DEV_176",
+        "DEV_666",
+        "DEV_793",
+        "DEV_512",
         "DEV_101",
-        "DEV_448"
+        "DEV_103",
+        "DEV_448",
+        "DEV_574",
+        "DEV_904",
+        "DEV_201",
+        "DEV_710",
+        "DEV_119",
+        "DEV_586",
+        "DEV_800",
+        "DEV_394",
+        "DEV_282",
+        "DEV_333",
+        "DEV_688",
+        "DEV_349",
+        "DEV_528",
+        "DEV_485",
+        "DEV_645",
+        "DEV_385",
+        "DEV_212",
+        "DEV_720",
+        "DEV_486",
+        "DEV_909",
+        "DEV_207",
+        "DEV_FRAUD_999",
+        "DEV_753"
       ],
       "linked_complaints_count": 0,
       "total_fraud_volume": 3265304.12,
       "syndicate_risk": "HIGH",
       "nodes": [
-        "DEV_282",
-        "ACC_256901",
-        "ACC_572999",
-        "ACC_611618",
-        "DEV_688",
-        "ACC_196278",
-        "ACC_729404",
-        "DEV_909",
-        "ACC_360630",
-        "DEV_720",
-        "ACC_757785",
-        "ACC_325596",
-        "ACC_686866",
-        "MULE_90443",
-        "ACC_750214",
-        "ACC_141528",
-        "DEV_645",
-        "ACC_807352",
-        "ACC_754740",
-        "ACC_708300",
-        "DEV_207",
-        "ACC_177000",
-        "DEV_485",
-        "DEV_574",
-        "DEV_212",
-        "DEV_793",
-        "ACC_765097",
-        "DEV_119",
-        "ACC_110988",
-        "ACC_769058",
-        "ACC_216878",
-        "MULE_72490",
-        "ACC_102609",
-        "DEV_103",
-        "ACC_849704",
-        "ACC_482093",
-        "ACC_829480",
-        "ACC_799116",
-        "DEV_333",
-        "ACC_705279",
-        "ACC_652773",
-        "DEV_710",
-        "ACC_710189",
-        "DEV_201",
-        "DEV_512",
-        "ACC_237873",
-        "DEV_666",
-        "ACC_634536",
-        "ACC_685696",
-        "ACC_305455",
-        "DEV_753",
         "DEV_882",
-        "ACC_784526",
-        "DEV_486",
-        "ACC_990038",
-        "ACC_517561",
-        "DEV_394",
-        "MULE_66963",
-        "ACC_625493",
-        "DEV_904",
-        "ACC_620851",
-        "ACC_199586",
-        "ACC_360495",
-        "DEV_586",
-        "DEV_385",
-        "DEV_528",
-        "MULE_41588",
-        "DEV_349",
-        "DEV_FRAUD_999",
-        "DEV_800",
-        "ACC_505309",
         "DEV_176",
-        "ACC_860995",
-        "ACC_556310",
-        "ACC_425318",
-        "ACC_524505",
-        "ACC_487887",
+        "DEV_666",
+        "ACC_620851",
+        "DEV_793",
+        "ACC_705279",
+        "ACC_196278",
+        "ACC_611618",
+        "DEV_512",
+        "ACC_686866",
+        "ACC_685696",
         "DEV_101",
-        "ACC_239858",
+        "ACC_517561",
+        "ACC_652773",
+        "DEV_103",
         "ACC_624905",
+        "ACC_757785",
+        "ACC_769058",
         "DEV_448",
+        "DEV_574",
+        "ACC_425318",
+        "ACC_710189",
+        "DEV_904",
+        "ACC_256901",
+        "DEV_201",
+        "ACC_765097",
+        "DEV_710",
+        "ACC_239858",
+        "ACC_102609",
+        "ACC_634536",
+        "DEV_119",
+        "DEV_586",
+        "ACC_829480",
+        "MULE_41588",
+        "ACC_729404",
+        "ACC_110988",
+        "ACC_237873",
+        "ACC_860995",
+        "MULE_66963",
+        "ACC_572999",
+        "MULE_90443",
+        "DEV_800",
+        "DEV_394",
+        "DEV_282",
+        "ACC_524505",
+        "DEV_333",
+        "ACC_482093",
+        "ACC_754740",
+        "DEV_688",
+        "ACC_360495",
+        "ACC_360630",
+        "ACC_849704",
+        "MULE_72490",
+        "MULE_74127",
+        "ACC_708300",
+        "ACC_141528",
         "ACC_283033",
-        "MULE_74127"
+        "DEV_349",
+        "DEV_528",
+        "DEV_485",
+        "ACC_799116",
+        "ACC_556310",
+        "DEV_645",
+        "ACC_990038",
+        "ACC_750214",
+        "ACC_487887",
+        "DEV_385",
+        "DEV_212",
+        "DEV_720",
+        "DEV_486",
+        "ACC_216878",
+        "ACC_625493",
+        "ACC_784526",
+        "ACC_807352",
+        "ACC_177000",
+        "DEV_909",
+        "DEV_207",
+        "ACC_305455",
+        "DEV_FRAUD_999",
+        "ACC_199586",
+        "DEV_753",
+        "ACC_505309",
+        "ACC_325596"
       ]
     },
     {
-      "mule_account": "MULE_72161",
+      "mule_account": "MULE_11633",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -974,191 +974,9 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "+91 85902 83389",
-        "MULE_72161",
-        "CMP_2029"
-      ]
-    },
-    {
-      "mule_account": "MULE_56017",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "+91 92464 71576",
-        "MULE_56017",
-        "CMP_2099"
-      ]
-    },
-    {
-      "mule_account": "MULE_26249",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "CMP_2008",
-        "+91 82204 25887",
-        "MULE_26249"
-      ]
-    },
-    {
-      "mule_account": "MULE_44010",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "CMP_2080",
-        "MULE_44010",
-        "+91 79897 50342"
-      ]
-    },
-    {
-      "mule_account": "MULE_10212",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "+91 77762 79847",
-        "CMP_2038",
-        "MULE_10212"
-      ]
-    },
-    {
-      "mule_account": "MULE_88312",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "+91 74859 71175",
-        "CMP_2020",
-        "MULE_88312"
-      ]
-    },
-    {
-      "mule_account": "MULE_55507",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "CMP_2025",
-        "+91 85671 38299",
-        "MULE_55507"
-      ]
-    },
-    {
-      "mule_account": "MULE_10291",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "MULE_10291",
-        "CMP_2069",
-        "+91 74416 68686"
-      ]
-    },
-    {
-      "mule_account": "MULE_99081",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "CMP_2066",
-        "+91 85873 94081",
-        "MULE_99081"
-      ]
-    },
-    {
-      "mule_account": "MULE_81948",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "MULE_81948",
-        "+91 79821 35909",
-        "CMP_2009"
-      ]
-    },
-    {
-      "mule_account": "MULE_71562",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "+91 81778 98253",
-        "MULE_71562",
-        "CMP_2065"
-      ]
-    },
-    {
-      "mule_account": "MULE_46179",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "+91 95525 20540",
-        "MULE_46179",
-        "CMP_2011"
-      ]
-    },
-    {
-      "mule_account": "MULE_14539",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "+91 74643 61278",
-        "MULE_14539",
-        "CMP_2043"
-      ]
-    },
-    {
-      "mule_account": "MULE_66783",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "CMP_2003",
-        "+91 85487 49523",
-        "MULE_66783"
+        "+91 76937 46540",
+        "MULE_11633",
+        "CMP_2052"
       ]
     },
     {
@@ -1176,6 +994,104 @@
       ]
     },
     {
+      "mule_account": "MULE_64802",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "MULE_64802",
+        "CMP_2030",
+        "+91 73355 22725"
+      ]
+    },
+    {
+      "mule_account": "MULE_57491",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "+91 82763 47733",
+        "MULE_57491",
+        "CMP_2026"
+      ]
+    },
+    {
+      "mule_account": "MULE_15178",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2055",
+        "MULE_15178",
+        "+91 70669 28826"
+      ]
+    },
+    {
+      "mule_account": "MULE_62134",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "MULE_62134",
+        "CMP_2047",
+        "+91 98507 93161"
+      ]
+    },
+    {
+      "mule_account": "MULE_52172",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2070",
+        "MULE_52172",
+        "+91 86993 19457"
+      ]
+    },
+    {
+      "mule_account": "MULE_49484",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "+91 84612 57766",
+        "CMP_2090",
+        "MULE_49484"
+      ]
+    },
+    {
+      "mule_account": "MULE_17638",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "MULE_17638",
+        "+91 70252 45872",
+        "CMP_2064"
+      ]
+    },
+    {
       "mule_account": "MULE_53675",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
@@ -1185,12 +1101,12 @@
       "syndicate_risk": "MEDIUM",
       "nodes": [
         "CMP_2097",
-        "MULE_53675",
-        "+91 82825 39242"
+        "+91 82825 39242",
+        "MULE_53675"
       ]
     },
     {
-      "mule_account": "MULE_82547",
+      "mule_account": "MULE_55279",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -1198,13 +1114,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "+91 88462 37984",
-        "CMP_2027",
-        "MULE_82547"
+        "CMP_2074",
+        "MULE_55279",
+        "+91 70540 91092"
       ]
     },
     {
-      "mule_account": "MULE_26662",
+      "mule_account": "MULE_58576",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -1212,13 +1128,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "MULE_26662",
-        "CMP_2078",
-        "+91 99500 29463"
+        "MULE_58576",
+        "CMP_2061",
+        "+91 81290 91754"
       ]
     },
     {
-      "mule_account": "MULE_52617",
+      "mule_account": "MULE_92442",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -1226,13 +1142,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "CMP_2059",
-        "MULE_52617",
-        "+91 99982 88457"
+        "MULE_92442",
+        "+91 70684 72951",
+        "CMP_2092"
       ]
     },
     {
-      "mule_account": "MULE_60382",
+      "mule_account": "MULE_14539",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -1240,9 +1156,9 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "+91 74598 27099",
-        "MULE_60382",
-        "CMP_2002"
+        "CMP_2043",
+        "+91 74643 61278",
+        "MULE_14539"
       ]
     },
     {
@@ -1254,13 +1170,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "+91 78727 82443",
+        "CMP_2006",
         "MULE_75145",
-        "CMP_2006"
+        "+91 78727 82443"
       ]
     },
     {
-      "mule_account": "MULE_87131",
+      "mule_account": "MULE_30954",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -1268,13 +1184,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "MULE_87131",
-        "CMP_2063",
-        "+91 79664 27673"
+        "+91 75559 12125",
+        "MULE_30954",
+        "CMP_2060"
       ]
     },
     {
-      "mule_account": "MULE_56375",
+      "mule_account": "MULE_38099",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -1282,13 +1198,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "+91 89476 92409",
-        "CMP_2037",
-        "MULE_56375"
+        "MULE_38099",
+        "CMP_2100",
+        "+91 82188 75905"
       ]
     },
     {
-      "mule_account": "MULE_11633",
+      "mule_account": "MULE_52858",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -1296,13 +1212,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "MULE_11633",
-        "+91 76937 46540",
-        "CMP_2052"
+        "+91 95770 44196",
+        "CMP_2058",
+        "MULE_52858"
       ]
     },
     {
-      "mule_account": "MULE_36595",
+      "mule_account": "MULE_28258",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -1310,9 +1226,9 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "+91 82140 54592",
-        "CMP_2048",
-        "MULE_36595"
+        "+91 88940 29024",
+        "MULE_28258",
+        "CMP_2056"
       ]
     },
     {
@@ -1324,13 +1240,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "+91 79750 42150",
         "CMP_2086",
+        "+91 79750 42150",
         "MULE_57951"
       ]
     },
     {
-      "mule_account": "MULE_13648",
+      "mule_account": "MULE_56375",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -1338,13 +1254,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "+91 94561 80526",
-        "CMP_2039",
-        "MULE_13648"
+        "MULE_56375",
+        "+91 89476 92409",
+        "CMP_2037"
       ]
     },
     {
-      "mule_account": "MULE_88559",
+      "mule_account": "MULE_82547",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -1352,9 +1268,205 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "CMP_2077",
-        "MULE_88559",
-        "+91 89024 82021"
+        "MULE_82547",
+        "+91 88462 37984",
+        "CMP_2027"
+      ]
+    },
+    {
+      "mule_account": "MULE_82141",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2067",
+        "MULE_82141",
+        "+91 74476 84376"
+      ]
+    },
+    {
+      "mule_account": "MULE_85973",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "+91 76439 36361",
+        "MULE_85973",
+        "CMP_2035"
+      ]
+    },
+    {
+      "mule_account": "MULE_23484",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "+91 81152 45335",
+        "CMP_2001",
+        "MULE_23484"
+      ]
+    },
+    {
+      "mule_account": "MULE_17130",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2071",
+        "+91 82793 59250",
+        "MULE_17130"
+      ]
+    },
+    {
+      "mule_account": "MULE_37437",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "+91 98532 99019",
+        "CMP_2022",
+        "MULE_37437"
+      ]
+    },
+    {
+      "mule_account": "MULE_88312",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "MULE_88312",
+        "+91 74859 71175",
+        "CMP_2020"
+      ]
+    },
+    {
+      "mule_account": "MULE_50646",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "MULE_50646",
+        "+91 71683 70458",
+        "CMP_2023"
+      ]
+    },
+    {
+      "mule_account": "MULE_55507",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2025",
+        "MULE_55507",
+        "+91 85671 38299"
+      ]
+    },
+    {
+      "mule_account": "MULE_60382",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2002",
+        "+91 74598 27099",
+        "MULE_60382"
+      ]
+    },
+    {
+      "mule_account": "MULE_69514",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2018",
+        "MULE_69514",
+        "+91 91975 11751"
+      ]
+    },
+    {
+      "mule_account": "MULE_23251",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "+91 76515 64807",
+        "CMP_2004",
+        "MULE_23251"
+      ]
+    },
+    {
+      "mule_account": "MULE_68647",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2085",
+        "+91 70609 97095",
+        "MULE_68647"
+      ]
+    },
+    {
+      "mule_account": "MULE_72161",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2029",
+        "MULE_72161",
+        "+91 85902 83389"
+      ]
+    },
+    {
+      "mule_account": "MULE_72444",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "+91 90672 79530",
+        "CMP_2007",
+        "MULE_72444"
       ]
     },
     {
@@ -1366,13 +1478,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "MULE_90796",
         "CMP_2079",
+        "MULE_90796",
         "+91 72315 85197"
       ]
     },
     {
-      "mule_account": "MULE_38768",
+      "mule_account": "MULE_44010",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -1380,13 +1492,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "MULE_38768",
-        "+91 74575 99122",
-        "CMP_2081"
+        "+91 79897 50342",
+        "CMP_2080",
+        "MULE_44010"
       ]
     },
     {
-      "mule_account": "MULE_59627",
+      "mule_account": "MULE_63523",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -1394,13 +1506,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "MULE_59627",
-        "+91 99933 92433",
-        "CMP_2042"
+        "+91 87972 60574",
+        "MULE_63523",
+        "CMP_2031"
       ]
     },
     {
-      "mule_account": "MULE_14194",
+      "mule_account": "MULE_21280",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -1408,51 +1520,9 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "MULE_14194",
-        "CMP_2068",
-        "+91 91024 56798"
-      ]
-    },
-    {
-      "mule_account": "MULE_73724",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "MULE_73724",
-        "CMP_2082",
-        "+91 99387 22818"
-      ]
-    },
-    {
-      "mule_account": "MULE_20218",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "+91 77230 71820",
-        "CMP_2044",
-        "MULE_20218"
-      ]
-    },
-    {
-      "mule_account": "MULE_34567",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "MULE_34567",
-        "CMP_2062",
-        "+91 94659 30559"
+        "CMP_2087",
+        "+91 95978 40622",
+        "MULE_21280"
       ]
     },
     {
@@ -1470,314 +1540,6 @@
       ]
     },
     {
-      "mule_account": "MULE_54391",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "CMP_2073",
-        "+91 88543 81211",
-        "MULE_54391"
-      ]
-    },
-    {
-      "mule_account": "MULE_90727",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "MULE_90727",
-        "CMP_2045",
-        "+91 89986 58063"
-      ]
-    },
-    {
-      "mule_account": "MULE_98899",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "CMP_2050",
-        "+91 83725 61277",
-        "MULE_98899"
-      ]
-    },
-    {
-      "mule_account": "MULE_69111",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "CMP_2096",
-        "MULE_69111",
-        "+91 83711 15439"
-      ]
-    },
-    {
-      "mule_account": "MULE_86846",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "MULE_86846",
-        "CMP_2036",
-        "+91 80163 29708"
-      ]
-    },
-    {
-      "mule_account": "MULE_32186",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "CMP_2093",
-        "MULE_32186",
-        "+91 96343 46562"
-      ]
-    },
-    {
-      "mule_account": "MULE_52858",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "MULE_52858",
-        "+91 95770 44196",
-        "CMP_2058"
-      ]
-    },
-    {
-      "mule_account": "MULE_76115",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "CMP_2091",
-        "+91 84381 54944",
-        "MULE_76115"
-      ]
-    },
-    {
-      "mule_account": "MULE_76874",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "MULE_76874",
-        "CMP_2012",
-        "+91 83054 62753"
-      ]
-    },
-    {
-      "mule_account": "MULE_23251",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "MULE_23251",
-        "+91 76515 64807",
-        "CMP_2004"
-      ]
-    },
-    {
-      "mule_account": "MULE_45921",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "+91 90120 67975",
-        "CMP_2013",
-        "MULE_45921"
-      ]
-    },
-    {
-      "mule_account": "MULE_50646",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "+91 71683 70458",
-        "CMP_2023",
-        "MULE_50646"
-      ]
-    },
-    {
-      "mule_account": "MULE_60302",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "MULE_60302",
-        "CMP_2049",
-        "+91 72856 34868"
-      ]
-    },
-    {
-      "mule_account": "MULE_47211",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "MULE_47211",
-        "CMP_2040",
-        "+91 92624 37222"
-      ]
-    },
-    {
-      "mule_account": "MULE_15178",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "+91 70669 28826",
-        "CMP_2055",
-        "MULE_15178"
-      ]
-    },
-    {
-      "mule_account": "MULE_98043",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "+91 98044 65060",
-        "CMP_2024",
-        "MULE_98043"
-      ]
-    },
-    {
-      "mule_account": "MULE_82141",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "MULE_82141",
-        "CMP_2067",
-        "+91 74476 84376"
-      ]
-    },
-    {
-      "mule_account": "MULE_64802",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "CMP_2030",
-        "MULE_64802",
-        "+91 73355 22725"
-      ]
-    },
-    {
-      "mule_account": "MULE_62134",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "+91 98507 93161",
-        "CMP_2047",
-        "MULE_62134"
-      ]
-    },
-    {
-      "mule_account": "MULE_28258",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "CMP_2056",
-        "MULE_28258",
-        "+91 88940 29024"
-      ]
-    },
-    {
-      "mule_account": "MULE_58480",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "+91 93250 97009",
-        "MULE_58480",
-        "CMP_2094"
-      ]
-    },
-    {
-      "mule_account": "MULE_25324",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "CMP_2034",
-        "+91 92330 83602",
-        "MULE_25324"
-      ]
-    },
-    {
       "mule_account": "MULE_75936",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
@@ -1787,12 +1549,12 @@
       "syndicate_risk": "MEDIUM",
       "nodes": [
         "+91 79589 62749",
-        "CMP_2033",
-        "MULE_75936"
+        "MULE_75936",
+        "CMP_2033"
       ]
     },
     {
-      "mule_account": "MULE_62753",
+      "mule_account": "MULE_99081",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -1800,13 +1562,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "+91 83741 10943",
-        "MULE_62753",
-        "CMP_2083"
+        "CMP_2066",
+        "+91 85873 94081",
+        "MULE_99081"
       ]
     },
     {
-      "mule_account": "MULE_69514",
+      "mule_account": "MULE_82425",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -1814,23 +1576,9 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "+91 91975 11751",
-        "CMP_2018",
-        "MULE_69514"
-      ]
-    },
-    {
-      "mule_account": "MULE_74506",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "MULE_74506",
-        "+91 88355 80618",
-        "CMP_2076"
+        "CMP_2016",
+        "MULE_82425",
+        "+91 96818 89085"
       ]
     },
     {
@@ -1848,7 +1596,7 @@
       ]
     },
     {
-      "mule_account": "MULE_55279",
+      "mule_account": "MULE_40267",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -1856,13 +1604,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "+91 70540 91092",
-        "MULE_55279",
-        "CMP_2074"
+        "CMP_2046",
+        "MULE_40267",
+        "+91 73183 13198"
       ]
     },
     {
-      "mule_account": "MULE_89066",
+      "mule_account": "MULE_52617",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -1870,65 +1618,9 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "MULE_89066",
-        "CMP_2098",
-        "+91 87661 42143"
-      ]
-    },
-    {
-      "mule_account": "MULE_30086",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "MULE_30086",
-        "CMP_2005",
-        "+91 76991 49953"
-      ]
-    },
-    {
-      "mule_account": "MULE_65760",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "MULE_65760",
-        "+91 86405 55681",
-        "CMP_2014"
-      ]
-    },
-    {
-      "mule_account": "MULE_37437",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "CMP_2022",
-        "MULE_37437",
-        "+91 98532 99019"
-      ]
-    },
-    {
-      "mule_account": "MULE_29371",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "MULE_29371",
-        "+91 88844 87018",
-        "CMP_2032"
+        "+91 99982 88457",
+        "MULE_52617",
+        "CMP_2059"
       ]
     },
     {
@@ -1940,65 +1632,9 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "+91 96712 65552",
         "CMP_2021",
+        "+91 96712 65552",
         "MULE_89234"
-      ]
-    },
-    {
-      "mule_account": "MULE_38099",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "CMP_2100",
-        "+91 82188 75905",
-        "MULE_38099"
-      ]
-    },
-    {
-      "mule_account": "MULE_52172",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "+91 86993 19457",
-        "MULE_52172",
-        "CMP_2070"
-      ]
-    },
-    {
-      "mule_account": "MULE_21280",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "+91 95978 40622",
-        "CMP_2087",
-        "MULE_21280"
-      ]
-    },
-    {
-      "mule_account": "MULE_84209",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "CMP_2041",
-        "+91 97640 74744",
-        "MULE_84209"
       ]
     },
     {
@@ -2010,13 +1646,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "MULE_46932",
         "+91 82178 88817",
-        "CMP_2053"
+        "CMP_2053",
+        "MULE_46932"
       ]
     },
     {
-      "mule_account": "MULE_44987",
+      "mule_account": "MULE_66783",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -2024,13 +1660,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "CMP_2010",
-        "MULE_44987",
-        "+91 88964 32295"
+        "MULE_66783",
+        "CMP_2003",
+        "+91 85487 49523"
       ]
     },
     {
-      "mule_account": "MULE_23484",
+      "mule_account": "MULE_13648",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -2038,13 +1674,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "CMP_2001",
-        "MULE_23484",
-        "+91 81152 45335"
+        "MULE_13648",
+        "+91 94561 80526",
+        "CMP_2039"
       ]
     },
     {
-      "mule_account": "MULE_49484",
+      "mule_account": "MULE_34269",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -2052,9 +1688,135 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "MULE_49484",
-        "CMP_2090",
-        "+91 84612 57766"
+        "+91 71426 41221",
+        "MULE_34269",
+        "CMP_2057"
+      ]
+    },
+    {
+      "mule_account": "MULE_44655",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2095",
+        "MULE_44655",
+        "+91 87205 32818"
+      ]
+    },
+    {
+      "mule_account": "MULE_38768",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2081",
+        "+91 74575 99122",
+        "MULE_38768"
+      ]
+    },
+    {
+      "mule_account": "MULE_65760",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "+91 86405 55681",
+        "MULE_65760",
+        "CMP_2014"
+      ]
+    },
+    {
+      "mule_account": "MULE_87131",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "+91 79664 27673",
+        "CMP_2063",
+        "MULE_87131"
+      ]
+    },
+    {
+      "mule_account": "MULE_47211",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "MULE_47211",
+        "CMP_2040",
+        "+91 92624 37222"
+      ]
+    },
+    {
+      "mule_account": "MULE_76874",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2012",
+        "MULE_76874",
+        "+91 83054 62753"
+      ]
+    },
+    {
+      "mule_account": "MULE_14194",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "+91 91024 56798",
+        "CMP_2068",
+        "MULE_14194"
+      ]
+    },
+    {
+      "mule_account": "MULE_32186",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "+91 96343 46562",
+        "CMP_2093",
+        "MULE_32186"
+      ]
+    },
+    {
+      "mule_account": "MULE_79479",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2051",
+        "+91 97549 37000",
+        "MULE_79479"
       ]
     },
     {
@@ -2072,48 +1834,6 @@
       ]
     },
     {
-      "mule_account": "MULE_44655",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "CMP_2095",
-        "+91 87205 32818",
-        "MULE_44655"
-      ]
-    },
-    {
-      "mule_account": "MULE_82425",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "MULE_82425",
-        "CMP_2016",
-        "+91 96818 89085"
-      ]
-    },
-    {
-      "mule_account": "MULE_17638",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "CMP_2064",
-        "MULE_17638",
-        "+91 70252 45872"
-      ]
-    },
-    {
       "mule_account": "MULE_28035",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
@@ -2123,12 +1843,12 @@
       "syndicate_risk": "MEDIUM",
       "nodes": [
         "+91 77571 20747",
-        "MULE_28035",
-        "CMP_2054"
+        "CMP_2054",
+        "MULE_28035"
       ]
     },
     {
-      "mule_account": "MULE_85973",
+      "mule_account": "MULE_44987",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -2136,13 +1856,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "CMP_2035",
-        "MULE_85973",
-        "+91 76439 36361"
+        "MULE_44987",
+        "+91 88964 32295",
+        "CMP_2010"
       ]
     },
     {
-      "mule_account": "MULE_96669",
+      "mule_account": "MULE_25324",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -2150,13 +1870,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "+91 96137 94265",
-        "MULE_96669",
-        "CMP_2089"
+        "CMP_2034",
+        "+91 92330 83602",
+        "MULE_25324"
       ]
     },
     {
-      "mule_account": "MULE_63523",
+      "mule_account": "MULE_59627",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -2164,13 +1884,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "CMP_2031",
-        "+91 87972 60574",
-        "MULE_63523"
+        "+91 99933 92433",
+        "CMP_2042",
+        "MULE_59627"
       ]
     },
     {
-      "mule_account": "MULE_68647",
+      "mule_account": "MULE_98289",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -2178,37 +1898,9 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "CMP_2085",
-        "MULE_68647",
-        "+91 70609 97095"
-      ]
-    },
-    {
-      "mule_account": "MULE_39790",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "MULE_39790",
-        "+91 87599 84769",
-        "CMP_2088"
-      ]
-    },
-    {
-      "mule_account": "MULE_84088",
-      "ring_size_nodes": 3,
-      "associated_accounts": 1,
-      "associated_devices": [],
-      "linked_complaints_count": 1,
-      "total_fraud_volume": 0,
-      "syndicate_risk": "MEDIUM",
-      "nodes": [
-        "+91 83831 42168",
-        "MULE_84088",
-        "CMP_2019"
+        "MULE_98289",
+        "+91 78352 44351",
+        "CMP_2028"
       ]
     },
     {
@@ -2221,12 +1913,12 @@
       "syndicate_risk": "MEDIUM",
       "nodes": [
         "CMP_2015",
-        "MULE_42526",
-        "+91 73365 72410"
+        "+91 73365 72410",
+        "MULE_42526"
       ]
     },
     {
-      "mule_account": "MULE_30954",
+      "mule_account": "MULE_29371",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -2234,13 +1926,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "MULE_30954",
-        "+91 75559 12125",
-        "CMP_2060"
+        "CMP_2032",
+        "MULE_29371",
+        "+91 88844 87018"
       ]
     },
     {
-      "mule_account": "MULE_57491",
+      "mule_account": "MULE_98899",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -2248,13 +1940,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "CMP_2026",
-        "+91 82763 47733",
-        "MULE_57491"
+        "CMP_2050",
+        "MULE_98899",
+        "+91 83725 61277"
       ]
     },
     {
-      "mule_account": "MULE_79479",
+      "mule_account": "MULE_26662",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -2262,13 +1954,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "+91 97549 37000",
-        "CMP_2051",
-        "MULE_79479"
+        "+91 99500 29463",
+        "MULE_26662",
+        "CMP_2078"
       ]
     },
     {
-      "mule_account": "MULE_72444",
+      "mule_account": "MULE_58480",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -2276,13 +1968,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "MULE_72444",
-        "+91 90672 79530",
-        "CMP_2007"
+        "MULE_58480",
+        "CMP_2094",
+        "+91 93250 97009"
       ]
     },
     {
-      "mule_account": "MULE_17130",
+      "mule_account": "MULE_10291",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -2290,13 +1982,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "CMP_2071",
-        "MULE_17130",
-        "+91 82793 59250"
+        "CMP_2069",
+        "+91 74416 68686",
+        "MULE_10291"
       ]
     },
     {
-      "mule_account": "MULE_98289",
+      "mule_account": "MULE_36595",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -2304,13 +1996,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "+91 78352 44351",
-        "CMP_2028",
-        "MULE_98289"
+        "MULE_36595",
+        "CMP_2048",
+        "+91 82140 54592"
       ]
     },
     {
-      "mule_account": "MULE_58576",
+      "mule_account": "MULE_71562",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -2318,13 +2010,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "+91 81290 91754",
-        "CMP_2061",
-        "MULE_58576"
+        "MULE_71562",
+        "+91 81778 98253",
+        "CMP_2065"
       ]
     },
     {
-      "mule_account": "MULE_34269",
+      "mule_account": "MULE_98043",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -2332,13 +2024,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "+91 71426 41221",
-        "CMP_2057",
-        "MULE_34269"
+        "MULE_98043",
+        "+91 98044 65060",
+        "CMP_2024"
       ]
     },
     {
-      "mule_account": "MULE_92442",
+      "mule_account": "MULE_45921",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -2346,13 +2038,13 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "+91 70684 72951",
-        "MULE_92442",
-        "CMP_2092"
+        "+91 90120 67975",
+        "CMP_2013",
+        "MULE_45921"
       ]
     },
     {
-      "mule_account": "MULE_40267",
+      "mule_account": "MULE_34567",
       "ring_size_nodes": 3,
       "associated_accounts": 1,
       "associated_devices": [],
@@ -2360,9 +2052,317 @@
       "total_fraud_volume": 0,
       "syndicate_risk": "MEDIUM",
       "nodes": [
-        "CMP_2046",
-        "MULE_40267",
-        "+91 73183 13198"
+        "CMP_2062",
+        "+91 94659 30559",
+        "MULE_34567"
+      ]
+    },
+    {
+      "mule_account": "MULE_10212",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "+91 77762 79847",
+        "MULE_10212",
+        "CMP_2038"
+      ]
+    },
+    {
+      "mule_account": "MULE_69111",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2096",
+        "MULE_69111",
+        "+91 83711 15439"
+      ]
+    },
+    {
+      "mule_account": "MULE_88559",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2077",
+        "MULE_88559",
+        "+91 89024 82021"
+      ]
+    },
+    {
+      "mule_account": "MULE_60302",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "+91 72856 34868",
+        "CMP_2049",
+        "MULE_60302"
+      ]
+    },
+    {
+      "mule_account": "MULE_96669",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2089",
+        "+91 96137 94265",
+        "MULE_96669"
+      ]
+    },
+    {
+      "mule_account": "MULE_76115",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "MULE_76115",
+        "+91 84381 54944",
+        "CMP_2091"
+      ]
+    },
+    {
+      "mule_account": "MULE_84088",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "+91 83831 42168",
+        "CMP_2019",
+        "MULE_84088"
+      ]
+    },
+    {
+      "mule_account": "MULE_73724",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2082",
+        "+91 99387 22818",
+        "MULE_73724"
+      ]
+    },
+    {
+      "mule_account": "MULE_90727",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2045",
+        "MULE_90727",
+        "+91 89986 58063"
+      ]
+    },
+    {
+      "mule_account": "MULE_89066",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "MULE_89066",
+        "CMP_2098",
+        "+91 87661 42143"
+      ]
+    },
+    {
+      "mule_account": "MULE_26249",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "MULE_26249",
+        "+91 82204 25887",
+        "CMP_2008"
+      ]
+    },
+    {
+      "mule_account": "MULE_20218",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2044",
+        "+91 77230 71820",
+        "MULE_20218"
+      ]
+    },
+    {
+      "mule_account": "MULE_84209",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "MULE_84209",
+        "+91 97640 74744",
+        "CMP_2041"
+      ]
+    },
+    {
+      "mule_account": "MULE_74506",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "+91 88355 80618",
+        "CMP_2076",
+        "MULE_74506"
+      ]
+    },
+    {
+      "mule_account": "MULE_81948",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "MULE_81948",
+        "CMP_2009",
+        "+91 79821 35909"
+      ]
+    },
+    {
+      "mule_account": "MULE_39790",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "+91 87599 84769",
+        "MULE_39790",
+        "CMP_2088"
+      ]
+    },
+    {
+      "mule_account": "MULE_30086",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "+91 76991 49953",
+        "MULE_30086",
+        "CMP_2005"
+      ]
+    },
+    {
+      "mule_account": "MULE_86846",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "+91 80163 29708",
+        "CMP_2036",
+        "MULE_86846"
+      ]
+    },
+    {
+      "mule_account": "MULE_56017",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "MULE_56017",
+        "+91 92464 71576",
+        "CMP_2099"
+      ]
+    },
+    {
+      "mule_account": "MULE_46179",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2011",
+        "+91 95525 20540",
+        "MULE_46179"
+      ]
+    },
+    {
+      "mule_account": "MULE_62753",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "MULE_62753",
+        "+91 83741 10943",
+        "CMP_2083"
+      ]
+    },
+    {
+      "mule_account": "MULE_54391",
+      "ring_size_nodes": 3,
+      "associated_accounts": 1,
+      "associated_devices": [],
+      "linked_complaints_count": 1,
+      "total_fraud_volume": 0,
+      "syndicate_risk": "MEDIUM",
+      "nodes": [
+        "CMP_2073",
+        "MULE_54391",
+        "+91 88543 81211"
       ]
     }
   ],

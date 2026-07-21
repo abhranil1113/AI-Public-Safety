@@ -23,7 +23,7 @@ Our **Agentic AI Digital Public Safety Platform** coordinates multiple specializ
 | 🕸️ **FraudGraph Agent** | NetworkX MultiDiGraph (Mule Ring Clustered) | Analyze transaction flows, cluster nodes, and reveal hidden rings (Linkurious 2024 magnifying glass) |
 | 🗺️ **GeoWatch Agent** | GIS-based Spatial Crime Mapping | Locate hotspots, map district coordinate indices, and calculate actionable LEA patrol recommendations |
 | 🎛️ **Orchestrator Agent** | Weighted Risk Fusion Engine | Combine Text (40%), Voice (20%), Graph (20%), and Geo (20%) scores into a consolidated overall risk rating |
-| 🔒 **Audit Logger** | SHA-256 Cryptographic Chain Ledger | Compile tamper-proof audit trails (Section 65B compliant) linked to officer approvals |
+| 🔒 **Audit Logger** | SHA-256 Cryptographic Chain Ledger | Compile tamper-proof audit trails (Section 65B-aligned) linked to officer approvals |
 
 ## ✨ Innovation Highlights
 - **Multi-Agent AI Architecture**: Collaborative routing to dedicated agents.
@@ -31,7 +31,7 @@ Our **Agentic AI Digital Public Safety Platform** coordinates multiple specializ
 - **Predictive Threat Timeline**: Maps digital arrest scams through sequential stages.
 - **Multi-Source Risk Fusion**: Fuses NLP, voice acoustics, mule graph, and geospatial indices.
 - **Court-Ready Evidence Packages**: Automatic generation of signed incident dossiers.
-- **Cryptographic Audit Trails**: Tamper-proof logs compliant with Section 65B of the Indian Evidence Act.
+- **Cryptographic Audit Trails**: Tamper-proof logs designed to support audit trails aligned with the evidentiary requirements of Section 65B of the Indian Evidence Act.
 - **Human-in-the-Loop (HITL) Workflow**: Enforcement actions are locked pending officer verification.
 - **Voice Deepfake Detection**: Acoustic forensics based on vocal jitter and shimmer.
 - **Fraud Ring Intelligence**: Dynamic transaction ego-graph clustering.
@@ -98,6 +98,20 @@ $$\text{FusedScore} = 0.40 \times \text{TextNLP} + 0.20 \times \text{VoiceAcoust
 
 *Note: These weights are heuristic parameters configured based on standard cybersecurity domains. In production, weights are trained and optimized dynamically on actual historical incidents.*
 
+## 📊 Generated Outputs (Tangible Artifacts)
+
+Every full pipeline run produces the following auditable files:
+
+| File | Description |
+| :--- | :--- |
+| `reports/intelligence_report.json` | Full structured intelligence package |
+| `reports/intelligence_report.txt` | Human-readable summary for officers |
+| `reports/audit_log.csv` | SHA-256 cryptographically chained audit trail |
+| `outputs/maps/hotspot_map.html` | Interactive Leaflet crime heatmap |
+| `outputs/graphs/fraud_network.png` | Fraud-ring network visualization |
+| `outputs/predictions/counterfeit_report.json` | Per-note forensic breakdown |
+| `outputs/predictions/ncrp_report.txt` | NCRP-style incident report |
+
 ## 🔒 Prototype Scope & Deployment Considerations
 - **Prototype Scope**: This project demonstrates the AI decision pipeline using synthetic datasets and simulated integrations due to limited public cybercrime data availability.
 - **Production Deployment Requirements**:
@@ -155,11 +169,41 @@ python main.py
 - Hackathon Core Developer Team
 - AI & Cybersecurity Division
 
-## 📚 Supporting Research & References
-1. **Counterfeit Detection (Patil et al. 2022)**: *"Indian Currency Note Denomination and Counterfeit Detection using CNN"*. Confirms deep learning achieves >97% classification accuracy.
-2. **Audio Spoofing (Li et al. 2023)**: *"Acoustic Feature Extraction for Deepfake Speech Diagnostics"*. Proves Jitter and Shimmer micro-fluctuations serve as robust parameters for synthetic speech identification.
-3. **Graph AML (Linkurious 2024)**: *"Graph Analytics for Anti-Money Laundering & Mule Network Detection"*. Explains how node-edge networks expose ring patterns.
-4. **Predictive GIS Mapping (PolicingInsight 2023)**: *"Predictive Policing: Accountability and Transparency in Geographical Hotspot Mapping"*. Highlights human validation requirements for algorithmic alerts.
+## 📚 Official References & Data Sources
+
+1. **National Cyber Crime Reporting Portal, Ministry of Home Affairs, Government of India.**  
+   Used as the reference model for cybercrime complaint reporting workflows and citizen-facing reporting concepts.  
+   [https://cybercrime.gov.in](https://cybercrime.gov.in)
+
+2. **Indian Cyber Crime Coordination Centre, Ministry of Home Affairs, Government of India.**  
+   Used as contextual reference for NCRP, cybercrime reporting infrastructure, and cyber fraud reporting mechanisms.  
+   [https://i4c.mha.gov.in](https://i4c.mha.gov.in)
+
+3. **Reserve Bank of India. (2025). Annual Report 2024–25: Currency Management.**  
+   Used as an official reference for currency-management context and counterfeit-currency discussion.  
+   [https://www.rbi.org.in](https://www.rbi.org.in)
+
+4. **Indian Computer Emergency Response Team, Ministry of Electronics and Information Technology, Government of India.**  
+   Used as an official cybersecurity reference for cyber incident response, advisories, and national cyber threat context.  
+   [https://www.cert-in.org.in](https://www.cert-in.org.in)
+
+5. **National Crime Records Bureau, Ministry of Home Affairs, Government of India.**  
+   Used as an official reference for crime data, cybercrime reporting context, and law-enforcement data systems.  
+   [https://ncrb.gov.in](https://ncrb.gov.in)
+
+6. **Google. Gemini API Documentation.**  
+   Used for LLM-based reasoning fallback and explanation support.  
+   [https://ai.google.dev/gemini-api/docs](https://ai.google.dev/gemini-api/docs)
+
+7. **OpenCV Foundation. OpenCV Image Processing Documentation.**  
+   Used for image processing, feature extraction, thresholding, contour analysis, and counterfeit-note visual checks.  
+   [https://docs.opencv.org](https://docs.opencv.org/)
+
+8. **NetworkX Developers. NetworkX Documentation.**  
+   Used for graph construction, connected components, fraud-ring mapping, and transaction-network analysis.  
+   [https://networkx.org/documentation/stable/](https://networkx.org/en/)
+
+> **Note:** The prototype models are evaluated using carefully generated synthetic and simulated datasets due to the limited availability of publicly accessible digital arrest scam, telecom, banking, and counterfeit currency incident datasets. The system is designed as a decision-support prototype and not as a legally certified enforcement system.
 
 ## 📄 License
 MIT
