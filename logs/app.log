@@ -2401,3 +2401,453 @@
 [2026-07-21 00:08:06] [INFO] [Orchestrator] - ==========================================
 [2026-07-21 00:08:06] [INFO] [Orchestrator] - Public safety pipeline execution complete.
 [2026-07-21 00:08:06] [INFO] [Orchestrator] - ==========================================
+[2026-07-21 22:24:26] [INFO] [Orchestrator] - Initializing multi-agent Public Safety intelligence pipeline...
+[2026-07-21 22:24:52] [INFO] [ScamClassifier] - Successfully loaded ML scam classification models.
+[2026-07-21 22:24:56] [INFO] [CurrencyDetector] - Successfully loaded CV currency model.
+[2026-07-21 22:24:56] [INFO] [FraudGraph] - Building fraud network graph with 300 transactions and 100 complaints.
+[2026-07-21 22:24:56] [INFO] [FraudGraph] - Graph constructed: 589 nodes, 946 edges.
+[2026-07-21 22:24:56] [INFO] [AuditLogger] - Cryptographic audit log verified. Ready to append.
+[2026-07-21 22:24:56] [INFO] [ScamClassifier] - Successfully loaded ML scam classification models.
+[2026-07-21 22:24:56] [INFO] [Orchestrator] - ==========================================
+[2026-07-21 22:24:56] [INFO] [Orchestrator] - Starting public safety pipeline execution...
+[2026-07-21 22:24:56] [INFO] [Orchestrator] - ==========================================
+[2026-07-21 22:24:56] [INFO] [ReportAgent] - Hashing event: [PIPELINE_START] - Initiated full intelligence pipeline run.
+[2026-07-21 22:24:56] [INFO] [Orchestrator] - Step 1: Running telecommunications scam classifier...
+[2026-07-21 22:24:56] [INFO] [ScamAgent] - Batch processing 150 call logs.
+[2026-07-21 22:24:56] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1001 (Caller: +91 86394 24502)
+[2026-07-21 22:24:56] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1002 (Caller: +91 72159 30227)
+[2026-07-21 22:24:56] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1003 (Caller: +91 71162 17372)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1005 (Caller: +91 78807 57192)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1007 (Caller: +91 84216 51391)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1008 (Caller: +91 71131 16337)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1009 (Caller: +91 95118 10104)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1010 (Caller: +91 92838 85529)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1012 (Caller: +91 82645 71948)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1014 (Caller: +91 87718 58029)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1015 (Caller: +91 77193 78031)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1020 (Caller: +91 89595 12800)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1022 (Caller: +91 83791 89514)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1023 (Caller: +91 91452 55721)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1024 (Caller: +91 75132 53607)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1025 (Caller: +91 81678 89789)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1026 (Caller: +91 87530 18615)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1027 (Caller: +91 97986 70763)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1028 (Caller: +91 78075 76995)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1029 (Caller: +91 94880 69040)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1030 (Caller: +91 99607 84355)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1031 (Caller: +91 84576 49998)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1032 (Caller: +91 84739 47843)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1033 (Caller: +91 75382 16321)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1034 (Caller: +91 85404 68876)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1035 (Caller: +91 73314 41760)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1036 (Caller: +91 76540 79705)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1037 (Caller: +91 93906 62813)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1038 (Caller: +91 84831 25047)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1040 (Caller: +91 72958 53371)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1041 (Caller: +91 70177 87546)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1043 (Caller: +91 71024 81818)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1044 (Caller: +91 83764 37108)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1046 (Caller: +91 76354 11482)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1048 (Caller: +91 87586 66565)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1049 (Caller: +91 75425 19085)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1052 (Caller: +91 91413 76335)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1054 (Caller: +91 80966 13542)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1055 (Caller: +91 75515 78590)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1056 (Caller: +91 70015 20219)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1057 (Caller: +91 98117 70703)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1059 (Caller: +91 90803 22936)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1060 (Caller: +91 81383 27579)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1061 (Caller: +91 83784 11998)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1062 (Caller: +91 86097 34012)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1064 (Caller: +91 79979 47356)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1066 (Caller: +91 98977 12162)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1067 (Caller: +91 75970 21448)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1068 (Caller: +91 84384 24924)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1069 (Caller: +91 98268 78840)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1070 (Caller: +91 98422 75196)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1071 (Caller: +91 94009 60971)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1075 (Caller: +91 77758 36656)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1076 (Caller: +91 70209 59894)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1080 (Caller: +91 87743 53567)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1081 (Caller: +91 93964 81061)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1083 (Caller: +91 88655 62559)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1084 (Caller: +91 71536 65927)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1088 (Caller: +91 89069 82952)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1089 (Caller: +91 94010 51998)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1090 (Caller: +91 95630 20696)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1092 (Caller: +91 76442 82145)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1096 (Caller: +91 89299 79469)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1097 (Caller: +91 78462 60385)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1098 (Caller: +91 88170 72735)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1100 (Caller: +91 78847 57520)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1101 (Caller: +91 76155 62349)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1104 (Caller: +91 94605 78120)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1105 (Caller: +91 74972 47083)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1106 (Caller: +91 94461 68567)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1110 (Caller: +91 86893 16241)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1112 (Caller: +91 98171 59092)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1113 (Caller: +91 93930 25199)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1117 (Caller: +91 99365 27298)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1119 (Caller: +91 85306 63183)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1121 (Caller: +91 84871 26972)
+[2026-07-21 22:24:57] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1123 (Caller: +91 96415 73411)
+[2026-07-21 22:24:58] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1125 (Caller: +91 94017 19827)
+[2026-07-21 22:24:58] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1126 (Caller: +91 91076 53915)
+[2026-07-21 22:24:58] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1127 (Caller: +91 80140 77911)
+[2026-07-21 22:24:58] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1128 (Caller: +91 95206 68210)
+[2026-07-21 22:24:58] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1129 (Caller: +91 83336 36285)
+[2026-07-21 22:24:58] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1131 (Caller: +91 96447 51386)
+[2026-07-21 22:24:58] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1135 (Caller: +91 84561 94929)
+[2026-07-21 22:24:58] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1136 (Caller: +91 81179 34586)
+[2026-07-21 22:24:58] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1138 (Caller: +91 76357 70828)
+[2026-07-21 22:24:58] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1140 (Caller: +91 82046 38863)
+[2026-07-21 22:24:58] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1142 (Caller: +91 74152 66720)
+[2026-07-21 22:24:58] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1143 (Caller: +91 97235 53296)
+[2026-07-21 22:24:58] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1145 (Caller: +91 87903 60293)
+[2026-07-21 22:24:58] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1150 (Caller: +91 85610 75582)
+[2026-07-21 22:24:58] [INFO] [Orchestrator] - Processed 150 calls. Found 91 scams.
+[2026-07-21 22:24:58] [INFO] [Orchestrator] - Scam predictions saved to D:\Ai Public Safety\outputs\predictions\scam_predictions.csv
+[2026-07-21 22:24:58] [INFO] [Orchestrator] - Step 2: Running Speech AI acoustic forensics...
+[2026-07-21 22:24:58] [INFO] [ScamAgent] - Auditing audio sample for voice cloning patterns...
+[2026-07-21 22:24:58] [INFO] [SpeechDetector] - Extracting spectral and acoustic micro-features from voice_clip_caller_1.wav
+[2026-07-21 22:24:58] [INFO] [ScamAgent] - Auditing audio sample for voice cloning patterns...
+[2026-07-21 22:24:58] [INFO] [SpeechDetector] - Extracting spectral and acoustic micro-features from voice_clip_caller_2.wav
+[2026-07-21 22:24:58] [INFO] [ScamAgent] - Auditing audio sample for voice cloning patterns...
+[2026-07-21 22:24:58] [INFO] [SpeechDetector] - Extracting spectral and acoustic micro-features from cloned_voice_cbi_spoof.wav
+[2026-07-21 22:24:58] [INFO] [ScamAgent] - Auditing audio sample for voice cloning patterns...
+[2026-07-21 22:24:58] [INFO] [SpeechDetector] - Extracting spectral and acoustic micro-features from voice_clip_caller_4.wav
+[2026-07-21 22:24:58] [INFO] [ScamAgent] - Auditing audio sample for voice cloning patterns...
+[2026-07-21 22:24:58] [INFO] [SpeechDetector] - Extracting spectral and acoustic micro-features from voice_clip_caller_5.wav
+[2026-07-21 22:24:58] [INFO] [ScamAgent] - Auditing audio sample for voice cloning patterns...
+[2026-07-21 22:24:58] [INFO] [SpeechDetector] - Extracting spectral and acoustic micro-features from ai_generated_customs_spoof.mp3
+[2026-07-21 22:24:58] [INFO] [ScamAgent] - Auditing audio sample for voice cloning patterns...
+[2026-07-21 22:24:58] [INFO] [SpeechDetector] - Extracting spectral and acoustic micro-features from voice_clip_caller_7.wav
+[2026-07-21 22:24:58] [INFO] [ScamAgent] - Auditing audio sample for voice cloning patterns...
+[2026-07-21 22:24:58] [INFO] [SpeechDetector] - Extracting spectral and acoustic micro-features from deepfake_voice_ed_threat.wav
+[2026-07-21 22:24:58] [INFO] [Orchestrator] - Speech AI predictions saved to D:\Ai Public Safety\outputs\predictions\speech_predictions.json
+[2026-07-21 22:24:58] [INFO] [Orchestrator] - Step 3: Simulating Citizen Fraud Shield query assessments...
+[2026-07-21 22:24:58] [INFO] [CitizenAgent] - Citizen Fraud Shield assessing query in Hindi...
+[2026-07-21 22:24:58] [INFO] [CitizenAgent] - Citizen Fraud Shield assessing query in English...
+[2026-07-21 22:24:58] [INFO] [CitizenAgent] - Citizen Fraud Shield assessing query in Telugu...
+[2026-07-21 22:24:58] [INFO] [CitizenAgent] - Citizen Fraud Shield assessing query in Tamil...
+[2026-07-21 22:24:58] [INFO] [Orchestrator] - Citizen assessments saved to D:\Ai Public Safety\outputs\predictions\citizen_assessments.json
+[2026-07-21 22:24:58] [INFO] [Orchestrator] - Step 4: Running physical currency verification...
+[2026-07-21 22:24:58] [INFO] [CurrencyAgent] - Batch auditing 60 notes.
+[2026-07-21 22:25:04] [INFO] [Orchestrator] - Processed 60 notes. Detected 30 counterfeits.
+[2026-07-21 22:25:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_200_1.png
+[2026-07-21 22:25:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_100_2.png
+[2026-07-21 22:25:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_500_3.png
+[2026-07-21 22:25:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_100_4.png
+[2026-07-21 22:25:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_100_5.png
+[2026-07-21 22:25:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_200_6.png
+[2026-07-21 22:25:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_100_7.png
+[2026-07-21 22:25:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_200_8.png
+[2026-07-21 22:25:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_200_9.png
+[2026-07-21 22:25:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_500_10.png
+[2026-07-21 22:25:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_200_11.png
+[2026-07-21 22:25:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_200_12.png
+[2026-07-21 22:25:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_500_13.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_200_14.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_100_15.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_500_16.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_200_17.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_200_18.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_100_19.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_500_20.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_100_1.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_200_2.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_100_3.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_100_4.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_200_5.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_500_6.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_200_7.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_500_8.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_500_9.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_100_10.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_500_11.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_100_12.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_500_13.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_500_14.png
+[2026-07-21 22:25:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_500_15.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_500_16.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_200_17.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_100_18.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_100_19.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_100_20.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_500_1.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_200_2.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_100_3.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_500_4.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_200_5.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_200_6.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_500_7.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_500_8.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_200_9.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_100_10.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_500_1.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_200_2.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_500_3.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_500_4.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_200_5.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_200_6.png
+[2026-07-21 22:25:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_100_7.png
+[2026-07-21 22:25:07] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_200_8.png
+[2026-07-21 22:25:07] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_500_9.png
+[2026-07-21 22:25:07] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_200_10.png
+[2026-07-21 22:25:07] [INFO] [Orchestrator] - Currency predictions saved to D:\Ai Public Safety\outputs\predictions\currency_predictions.csv
+[2026-07-21 22:25:07] [INFO] [Orchestrator] - Step 5: Running transaction network graph analysis...
+[2026-07-21 22:25:07] [INFO] [GraphAgent] - Extracting fraud network clusters...
+[2026-07-21 22:25:10] [INFO] [Orchestrator] - Discovered 105 active fraud network rings.
+[2026-07-21 22:25:10] [INFO] [Orchestrator] - Graph clusters saved to D:\Ai Public Safety\outputs\predictions\graph_clusters.json
+[2026-07-21 22:25:10] [INFO] [GraphAgent] - Visualizing full network database graph.
+[2026-07-21 22:25:32] [INFO] [GraphVisualizer] - Full network map saved to D:\Ai Public Safety\outputs\graphs\fraud_network.png
+[2026-07-21 22:25:32] [INFO] [Orchestrator] - Full network map saved to D:\Ai Public Safety\outputs\graphs\fraud_network.png
+[2026-07-21 22:25:32] [INFO] [GraphAgent] - Visualizing network topology of MULE_66963 ring.
+[2026-07-21 22:25:42] [INFO] [GraphVisualizer] - Mule ring visualization saved to D:\Ai Public Safety\outputs\graphs\ring_MULE_66963.png
+[2026-07-21 22:25:42] [INFO] [ReportAgent] - Hashing event: [MULE_RING_VISUALIZED] - Rendered connection chart for mule account MULE_66963
+[2026-07-21 22:25:42] [INFO] [GraphAgent] - Visualizing network topology of MULE_41588 ring.
+[2026-07-21 22:25:52] [INFO] [GraphVisualizer] - Mule ring visualization saved to D:\Ai Public Safety\outputs\graphs\ring_MULE_41588.png
+[2026-07-21 22:25:52] [INFO] [ReportAgent] - Hashing event: [MULE_RING_VISUALIZED] - Rendered connection chart for mule account MULE_41588
+[2026-07-21 22:25:52] [INFO] [Orchestrator] - Step 6: Running geospatial hotspot calculations...
+[2026-07-21 22:25:52] [INFO] [GeoAgent] - Generating patrol deployment prioritization matrix...
+[2026-07-21 22:25:53] [INFO] [HotspotDetector] - Geospatial hotspot analysis complete. Found 10 active districts.
+[2026-07-21 22:25:53] [INFO] [Orchestrator] - Geospatial hotspots saved to D:\Ai Public Safety\outputs\predictions\geo_hotspots.json
+[2026-07-21 22:25:53] [INFO] [GeoAgent] - Rendering interactive leaflet HTML map...
+[2026-07-21 22:25:53] [INFO] [HotspotDetector] - Geospatial hotspot analysis complete. Found 10 active districts.
+[2026-07-21 22:25:53] [INFO] [MapGenerator] - Geospatial HTML map saved to D:\Ai Public Safety\outputs\maps\hotspot_map.html
+[2026-07-21 22:25:53] [INFO] [Orchestrator] - Hotspot map successfully saved to D:\Ai Public Safety\outputs\maps\hotspot_map.html.
+[2026-07-21 22:25:53] [INFO] [Orchestrator] - Step 7: Compiling legal-grade intelligence reports...
+[2026-07-21 22:25:53] [INFO] [ReportAgent] - Assembling multi-source public safety intelligence report...
+[2026-07-21 22:25:53] [INFO] [IntelligenceReport] - JSON report saved to D:\Ai Public Safety\reports\intelligence_report.json
+[2026-07-21 22:25:53] [INFO] [IntelligenceReport] - TXT report saved to D:\Ai Public Safety\reports\intelligence_report.txt
+[2026-07-21 22:25:53] [INFO] [ReportAgent] - Executing SHA-256 ledger integrity audit...
+[2026-07-21 22:25:53] [INFO] [Orchestrator] - Cryptographic ledger status: SECURE
+[2026-07-21 22:25:53] [INFO] [ReportAgent] - Hashing event: [PIPELINE_COMPLETE] - Pipeline completed. Report saved to D:\Ai Public Safety\reports\intelligence_report.txt
+[2026-07-21 22:25:53] [INFO] [Orchestrator] - ==========================================
+[2026-07-21 22:25:53] [INFO] [Orchestrator] - Public safety pipeline execution complete.
+[2026-07-21 22:25:53] [INFO] [Orchestrator] - ==========================================
+[2026-07-21 22:26:53] [INFO] [Orchestrator] - Initializing multi-agent Public Safety intelligence pipeline...
+[2026-07-21 22:26:58] [INFO] [ScamClassifier] - Successfully loaded ML scam classification models.
+[2026-07-21 22:26:59] [INFO] [CurrencyDetector] - Successfully loaded CV currency model.
+[2026-07-21 22:26:59] [INFO] [FraudGraph] - Building fraud network graph with 300 transactions and 100 complaints.
+[2026-07-21 22:26:59] [INFO] [FraudGraph] - Graph constructed: 589 nodes, 946 edges.
+[2026-07-21 22:26:59] [INFO] [AuditLogger] - Cryptographic audit log verified. Ready to append.
+[2026-07-21 22:26:59] [INFO] [ScamClassifier] - Successfully loaded ML scam classification models.
+[2026-07-21 22:26:59] [INFO] [Orchestrator] - ==========================================
+[2026-07-21 22:26:59] [INFO] [Orchestrator] - Starting public safety pipeline execution...
+[2026-07-21 22:26:59] [INFO] [Orchestrator] - ==========================================
+[2026-07-21 22:26:59] [INFO] [ReportAgent] - Hashing event: [PIPELINE_START] - Initiated full intelligence pipeline run.
+[2026-07-21 22:26:59] [INFO] [Orchestrator] - Step 1: Running telecommunications scam classifier...
+[2026-07-21 22:26:59] [INFO] [ScamAgent] - Batch processing 150 call logs.
+[2026-07-21 22:26:59] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1001 (Caller: +91 73596 75017)
+[2026-07-21 22:26:59] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1002 (Caller: +91 87290 28754)
+[2026-07-21 22:26:59] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1003 (Caller: +91 78516 58194)
+[2026-07-21 22:26:59] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1005 (Caller: +91 90934 38307)
+[2026-07-21 22:26:59] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1007 (Caller: +91 89150 89252)
+[2026-07-21 22:26:59] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1008 (Caller: +91 83974 57583)
+[2026-07-21 22:26:59] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1009 (Caller: +91 96405 22593)
+[2026-07-21 22:26:59] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1010 (Caller: +91 89042 56282)
+[2026-07-21 22:26:59] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1012 (Caller: +91 70201 67918)
+[2026-07-21 22:26:59] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1014 (Caller: +91 91246 14594)
+[2026-07-21 22:26:59] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1015 (Caller: +91 89083 33241)
+[2026-07-21 22:26:59] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1020 (Caller: +91 92913 16819)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1022 (Caller: +91 98581 57627)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1023 (Caller: +91 95304 73687)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1024 (Caller: +91 85906 69699)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1025 (Caller: +91 95984 15551)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1026 (Caller: +91 90904 23068)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1027 (Caller: +91 94905 38618)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1028 (Caller: +91 98656 10977)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1029 (Caller: +91 98449 31350)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1030 (Caller: +91 83660 58693)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1031 (Caller: +91 91225 13783)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1032 (Caller: +91 88882 58589)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1033 (Caller: +91 86517 19605)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1034 (Caller: +91 72909 74034)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1035 (Caller: +91 90059 39782)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1036 (Caller: +91 87200 22008)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1037 (Caller: +91 71477 13440)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1038 (Caller: +91 75840 46177)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1040 (Caller: +91 71742 67080)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1041 (Caller: +91 81206 50535)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1043 (Caller: +91 99183 55555)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1044 (Caller: +91 70960 54370)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1046 (Caller: +91 79301 68503)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1048 (Caller: +91 93299 60466)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1049 (Caller: +91 96203 99058)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1052 (Caller: +91 74410 34226)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1054 (Caller: +91 84623 71133)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1055 (Caller: +91 88231 53823)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1056 (Caller: +91 84272 62330)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1057 (Caller: +91 86330 14058)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1059 (Caller: +91 89914 99592)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1060 (Caller: +91 91541 27837)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1061 (Caller: +91 84598 50035)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1062 (Caller: +91 99071 88469)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1064 (Caller: +91 72682 58442)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1066 (Caller: +91 92749 96966)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1067 (Caller: +91 95747 40548)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1068 (Caller: +91 77751 91825)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1069 (Caller: +91 83858 80832)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1070 (Caller: +91 89647 85461)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1071 (Caller: +91 81579 82686)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1075 (Caller: +91 90947 83931)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1076 (Caller: +91 87915 10819)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1080 (Caller: +91 78492 67954)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1081 (Caller: +91 92340 18889)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1083 (Caller: +91 81089 75909)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1084 (Caller: +91 80800 68146)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1088 (Caller: +91 86236 32952)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1089 (Caller: +91 82948 52708)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1090 (Caller: +91 74403 16805)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1092 (Caller: +91 73056 25753)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1096 (Caller: +91 94974 65008)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1097 (Caller: +91 81036 52871)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1098 (Caller: +91 82457 14710)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1100 (Caller: +91 86741 24963)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1101 (Caller: +91 94547 46236)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1104 (Caller: +91 87384 29491)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1105 (Caller: +91 82645 46146)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1106 (Caller: +91 89941 27263)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1110 (Caller: +91 88551 65907)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1112 (Caller: +91 96161 40604)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1113 (Caller: +91 94983 17317)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1117 (Caller: +91 87565 45219)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1119 (Caller: +91 91428 34906)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1121 (Caller: +91 70063 51659)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1123 (Caller: +91 87724 34457)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1125 (Caller: +91 70242 99858)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1126 (Caller: +91 79035 69231)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1127 (Caller: +91 91692 46471)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1128 (Caller: +91 78982 78874)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1129 (Caller: +91 76383 10826)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1131 (Caller: +91 94197 87898)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1135 (Caller: +91 91586 57523)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1136 (Caller: +91 87981 51103)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1138 (Caller: +91 77519 72419)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1140 (Caller: +91 91942 69911)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1142 (Caller: +91 86429 72638)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1143 (Caller: +91 81590 17141)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1145 (Caller: +91 71844 46533)
+[2026-07-21 22:27:00] [INFO] [AlertSystem] - 🚨 SCAM ALERT TRIGGERED for Call ID CALL_1150 (Caller: +91 99572 99625)
+[2026-07-21 22:27:00] [INFO] [Orchestrator] - Processed 150 calls. Found 91 scams.
+[2026-07-21 22:27:00] [INFO] [Orchestrator] - Scam predictions saved to D:\Ai Public Safety\outputs\predictions\scam_predictions.csv
+[2026-07-21 22:27:00] [INFO] [Orchestrator] - Step 2: Running Speech AI acoustic forensics...
+[2026-07-21 22:27:00] [INFO] [ScamAgent] - Auditing audio sample for voice cloning patterns...
+[2026-07-21 22:27:00] [INFO] [SpeechDetector] - Extracting spectral and acoustic micro-features from voice_clip_caller_1.wav
+[2026-07-21 22:27:00] [INFO] [ScamAgent] - Auditing audio sample for voice cloning patterns...
+[2026-07-21 22:27:00] [INFO] [SpeechDetector] - Extracting spectral and acoustic micro-features from voice_clip_caller_2.wav
+[2026-07-21 22:27:00] [INFO] [ScamAgent] - Auditing audio sample for voice cloning patterns...
+[2026-07-21 22:27:00] [INFO] [SpeechDetector] - Extracting spectral and acoustic micro-features from cloned_voice_cbi_spoof.wav
+[2026-07-21 22:27:00] [INFO] [ScamAgent] - Auditing audio sample for voice cloning patterns...
+[2026-07-21 22:27:00] [INFO] [SpeechDetector] - Extracting spectral and acoustic micro-features from voice_clip_caller_4.wav
+[2026-07-21 22:27:00] [INFO] [ScamAgent] - Auditing audio sample for voice cloning patterns...
+[2026-07-21 22:27:00] [INFO] [SpeechDetector] - Extracting spectral and acoustic micro-features from voice_clip_caller_5.wav
+[2026-07-21 22:27:00] [INFO] [ScamAgent] - Auditing audio sample for voice cloning patterns...
+[2026-07-21 22:27:00] [INFO] [SpeechDetector] - Extracting spectral and acoustic micro-features from ai_generated_customs_spoof.mp3
+[2026-07-21 22:27:00] [INFO] [ScamAgent] - Auditing audio sample for voice cloning patterns...
+[2026-07-21 22:27:00] [INFO] [SpeechDetector] - Extracting spectral and acoustic micro-features from voice_clip_caller_7.wav
+[2026-07-21 22:27:00] [INFO] [ScamAgent] - Auditing audio sample for voice cloning patterns...
+[2026-07-21 22:27:00] [INFO] [SpeechDetector] - Extracting spectral and acoustic micro-features from deepfake_voice_ed_threat.wav
+[2026-07-21 22:27:00] [INFO] [Orchestrator] - Speech AI predictions saved to D:\Ai Public Safety\outputs\predictions\speech_predictions.json
+[2026-07-21 22:27:00] [INFO] [Orchestrator] - Step 3: Simulating Citizen Fraud Shield query assessments...
+[2026-07-21 22:27:00] [INFO] [CitizenAgent] - Citizen Fraud Shield assessing query in Hindi...
+[2026-07-21 22:27:00] [INFO] [CitizenAgent] - Citizen Fraud Shield assessing query in English...
+[2026-07-21 22:27:00] [INFO] [CitizenAgent] - Citizen Fraud Shield assessing query in Telugu...
+[2026-07-21 22:27:00] [INFO] [CitizenAgent] - Citizen Fraud Shield assessing query in Tamil...
+[2026-07-21 22:27:00] [INFO] [Orchestrator] - Citizen assessments saved to D:\Ai Public Safety\outputs\predictions\citizen_assessments.json
+[2026-07-21 22:27:00] [INFO] [Orchestrator] - Step 4: Running physical currency verification...
+[2026-07-21 22:27:00] [INFO] [CurrencyAgent] - Batch auditing 60 notes.
+[2026-07-21 22:27:03] [INFO] [Orchestrator] - Processed 60 notes. Detected 30 counterfeits.
+[2026-07-21 22:27:03] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_200_1.png
+[2026-07-21 22:27:03] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_100_2.png
+[2026-07-21 22:27:03] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_500_3.png
+[2026-07-21 22:27:03] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_100_4.png
+[2026-07-21 22:27:03] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_100_5.png
+[2026-07-21 22:27:03] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_200_6.png
+[2026-07-21 22:27:03] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_100_7.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_200_8.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_200_9.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_500_10.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_200_11.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_200_12.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_500_13.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_200_14.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_100_15.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_500_16.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_200_17.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_200_18.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_100_19.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\real\real_500_20.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_100_1.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_200_2.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_100_3.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_100_4.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_200_5.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_500_6.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_200_7.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_500_8.png
+[2026-07-21 22:27:04] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_500_9.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_100_10.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_500_11.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_100_12.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_500_13.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_500_14.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_500_15.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_500_16.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_200_17.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_100_18.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_100_19.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\train\fake\fake_100_20.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_500_1.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_200_2.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_100_3.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_500_4.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_200_5.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_200_6.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_500_7.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_500_8.png
+[2026-07-21 22:27:05] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_200_9.png
+[2026-07-21 22:27:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\real\real_100_10.png
+[2026-07-21 22:27:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_500_1.png
+[2026-07-21 22:27:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_200_2.png
+[2026-07-21 22:27:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_500_3.png
+[2026-07-21 22:27:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_500_4.png
+[2026-07-21 22:27:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_200_5.png
+[2026-07-21 22:27:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_200_6.png
+[2026-07-21 22:27:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_100_7.png
+[2026-07-21 22:27:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_200_8.png
+[2026-07-21 22:27:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_500_9.png
+[2026-07-21 22:27:06] [INFO] [CurrencyAgent] - Forensic note check: D:\Ai Public Safety\datasets\currency\test\fake\fake_200_10.png
+[2026-07-21 22:27:06] [INFO] [Orchestrator] - Currency predictions saved to D:\Ai Public Safety\outputs\predictions\currency_predictions.csv
+[2026-07-21 22:27:06] [INFO] [Orchestrator] - Step 5: Running transaction network graph analysis...
+[2026-07-21 22:27:06] [INFO] [GraphAgent] - Extracting fraud network clusters...
+[2026-07-21 22:27:10] [INFO] [Orchestrator] - Discovered 105 active fraud network rings.
+[2026-07-21 22:27:10] [INFO] [Orchestrator] - Graph clusters saved to D:\Ai Public Safety\outputs\predictions\graph_clusters.json
+[2026-07-21 22:27:10] [INFO] [GraphAgent] - Visualizing full network database graph.
+[2026-07-21 22:27:29] [INFO] [GraphVisualizer] - Full network map saved to D:\Ai Public Safety\outputs\graphs\fraud_network.png
+[2026-07-21 22:27:29] [INFO] [Orchestrator] - Full network map saved to D:\Ai Public Safety\outputs\graphs\fraud_network.png
+[2026-07-21 22:27:29] [INFO] [GraphAgent] - Visualizing network topology of MULE_66963 ring.
+[2026-07-21 22:27:37] [INFO] [GraphVisualizer] - Mule ring visualization saved to D:\Ai Public Safety\outputs\graphs\ring_MULE_66963.png
+[2026-07-21 22:27:37] [INFO] [ReportAgent] - Hashing event: [MULE_RING_VISUALIZED] - Rendered connection chart for mule account MULE_66963
+[2026-07-21 22:27:37] [INFO] [GraphAgent] - Visualizing network topology of MULE_41588 ring.
+[2026-07-21 22:27:45] [INFO] [GraphVisualizer] - Mule ring visualization saved to D:\Ai Public Safety\outputs\graphs\ring_MULE_41588.png
+[2026-07-21 22:27:45] [INFO] [ReportAgent] - Hashing event: [MULE_RING_VISUALIZED] - Rendered connection chart for mule account MULE_41588
+[2026-07-21 22:27:45] [INFO] [Orchestrator] - Step 6: Running geospatial hotspot calculations...
+[2026-07-21 22:27:45] [INFO] [GeoAgent] - Generating patrol deployment prioritization matrix...
+[2026-07-21 22:27:45] [INFO] [HotspotDetector] - Geospatial hotspot analysis complete. Found 10 active districts.
+[2026-07-21 22:27:45] [INFO] [Orchestrator] - Geospatial hotspots saved to D:\Ai Public Safety\outputs\predictions\geo_hotspots.json
+[2026-07-21 22:27:45] [INFO] [GeoAgent] - Rendering interactive leaflet HTML map...
+[2026-07-21 22:27:45] [INFO] [HotspotDetector] - Geospatial hotspot analysis complete. Found 10 active districts.
+[2026-07-21 22:27:45] [INFO] [MapGenerator] - Geospatial HTML map saved to D:\Ai Public Safety\outputs\maps\hotspot_map.html
+[2026-07-21 22:27:45] [INFO] [Orchestrator] - Hotspot map successfully saved to D:\Ai Public Safety\outputs\maps\hotspot_map.html.
+[2026-07-21 22:27:45] [INFO] [Orchestrator] - Step 7: Compiling legal-grade intelligence reports...
+[2026-07-21 22:27:45] [INFO] [ReportAgent] - Assembling multi-source public safety intelligence report...
+[2026-07-21 22:27:45] [INFO] [IntelligenceReport] - JSON report saved to D:\Ai Public Safety\reports\intelligence_report.json
+[2026-07-21 22:27:45] [INFO] [IntelligenceReport] - TXT report saved to D:\Ai Public Safety\reports\intelligence_report.txt
+[2026-07-21 22:27:45] [INFO] [ReportAgent] - Executing SHA-256 ledger integrity audit...
+[2026-07-21 22:27:45] [INFO] [Orchestrator] - Cryptographic ledger status: SECURE
+[2026-07-21 22:27:45] [INFO] [ReportAgent] - Hashing event: [PIPELINE_COMPLETE] - Pipeline completed. Report saved to D:\Ai Public Safety\reports\intelligence_report.txt
+[2026-07-21 22:27:45] [INFO] [Orchestrator] - ==========================================
+[2026-07-21 22:27:45] [INFO] [Orchestrator] - Public safety pipeline execution complete.
+[2026-07-21 22:27:45] [INFO] [Orchestrator] - ==========================================
